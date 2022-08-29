@@ -116,4 +116,4 @@ myInstanceOf(p1, Person); // true
 
 #### 5、手写$on, $once, $off, $emit
 
-详见[vue.js的事件机制实现](http://meilianwu.com/2019/03/26/vue-event.html)
+详见[vue.js的事件机制实现](http://wuxiansen.com/2019/03/26/vue-event.html)

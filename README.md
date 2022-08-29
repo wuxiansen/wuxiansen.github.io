@@ -4,7 +4,7 @@ Hello World~ This is the blog that I record things.
 
 这是我的个人博客，一路写写停停~
 
-下面是博客搭建教程，更详细教程请戳[如何搭建jekyll主题的github.io博客](http://meilianwu.com/2018/05/31/blog-build.html)
+下面是博客搭建教程，更详细教程请戳[如何搭建jekyll主题的github.io博客](http://wuxiansen.com/2018/05/31/blog-build.html)
 
 我的[github](https://github.com/wuxiansen)
 
@@ -39,7 +39,7 @@ Hello World~ This is the blog that I record things.
 title: Wml Blog    # blog title
 SEOTitle: 吴美莲的博客 | Wml Blog   # seo title
 description: "前端开发"  # seo description
-url: "https://meilianwu.com/"     # your host, for absolute URL
+url: "https://wuxiansen.com/"     # your host, for absolute URL
 
 # Build settings
 paginate: 5     # paginate number
