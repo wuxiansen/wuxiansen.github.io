@@ -405,6 +405,6 @@ server {
 }
 ```
 
-### 相关源码：[github](https://github.com/wumeilian/crossDomain/tree/master/postMessage)
+### 相关源码：[github](https://github.com/wuxiansen/crossDomain/tree/master/postMessage)
 
 
