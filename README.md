@@ -167,3 +167,10 @@ github_username:    wuxiansen
 ```
 
 创建一个[github application](https://github.com/settings/applications/new)；将创建好产生的Client ID 和 Client Secret 填入你的我们 Gitalk 参数中,推送到远程仓库以后刷新每篇文章会产生一个issue，首次加载可能比较慢。这里感谢[qiubaiying](http://qiubaiying.top/2017/12/19/%E4%B8%BA%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0-Gitalk-%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6/)的教程。
+
+### jekyll-paginate 依赖缺失
+因为 jekyll 3 中默认安装已经没有这个分页组件了，官方把这个分页组件插件化了，因此要独立安装。详情见 https://jekyllrb.com/docs/pagination/。
+
+```http
+https://qiuhaidong.github.io/blog/2022/02/24/error-jekyll-paginate/
+```
