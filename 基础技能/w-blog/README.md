@@ -1,7 +1,7 @@
 ---
-sort: 1
+sort: 2
 ---
 
-# 博客
+# Foundation skills
 
 {% include list.liquid all=true %}
