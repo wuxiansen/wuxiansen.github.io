@@ -1,7 +1,3 @@
----
-sort: 1
----
-
-# 博客
+# JAVA
 
 {% include list.liquid all=true %}
