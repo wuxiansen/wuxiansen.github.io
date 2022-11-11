@@ -20,6 +20,7 @@ exclude:
   - Makefile
   - CNAME
   - LICENSE
+  - vendor
   - update.sh
   - Gemfile
   - Gemfile.lock
