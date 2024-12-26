@@ -1,3 +1,0 @@
-# JUC
-
-source: `{{ page.path }}`

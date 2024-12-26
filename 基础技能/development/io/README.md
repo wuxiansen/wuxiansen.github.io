@@ -1,3 +1,0 @@
-# IO
-
-source: `{{ page.path }}`

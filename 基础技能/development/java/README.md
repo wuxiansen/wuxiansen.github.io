@@ -1,3 +1,0 @@
-# JAVA
-
-source: `{{ page.path }}`

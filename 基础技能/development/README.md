@@ -1,3 +1,0 @@
-# Development
-
-source: `{{ page.path }}`

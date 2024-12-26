@@ -1,3 +1,0 @@
-# NIO
-
-source: `{{ page.path }}`
