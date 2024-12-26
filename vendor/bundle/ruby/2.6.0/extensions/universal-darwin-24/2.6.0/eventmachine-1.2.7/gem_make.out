@@ -1,5 +1,5 @@
 current directory: /Users/panda/Develop/workspaces/wuxiansen.web/wuxiansen.github.io/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/ext
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20241226-32634-1ofmlo2.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20241226-35662-zf64gr.rb extconf.rb
 checking for -lcrypto... no
 checking for openssl/ssl.h... no
 checking for -lcrypto... no
