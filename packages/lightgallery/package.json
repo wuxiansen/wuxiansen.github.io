@@ -1,0 +1,81 @@
+{
+  "name": "vuepress-plugin-lightgallery",
+  "version": "2.0.0-rc.64",
+  "description": "Light Gallery plugin for VuePress",
+  "keywords": [
+    "vuepress",
+    "vuepress2",
+    "vuepress-plugin",
+    "lightgallery",
+    "image",
+    "preview",
+    "zoom"
+  ],
+  "homepage": "https://plugin-lightgallery.vuejs.press/",
+  "bugs": {
+    "url": "https://github.com/vuepress-theme-hope/vuepress-theme-hope/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuepress-theme-hope/vuepress-theme-hope.git",
+    "directory": "packages/lightgallery"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Mr.Hope",
+    "email": "mister-hope@outlook.com",
+    "url": "https://mister-hope.com"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./lib/node/index.js",
+    "./client": "./lib/client/index.js",
+    "./package.json": "./package.json"
+  },
+  "main": "./lib/node/index.js",
+  "types": "./lib/node/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "rollup -c rollup.config.ts --configPlugin esbuild",
+    "clean": "rimraf --glob ./lib ./*.tsbuildinfo",
+    "copy": "cpx \"src/client/**/*.scss\" lib/client",
+    "dev": "concurrently \"pnpm dev:copy\" \"pnpm dev:ts\"",
+    "dev:copy": "pnpm copy -w",
+    "dev:ts": "tsc -b tsconfig.build.json --watch"
+  },
+  "dependencies": {
+    "@vuepress/helper": "2.0.0-rc.68",
+    "@vuepress/plugin-sass-palette": "2.0.0-rc.68",
+    "lightgallery": "^2.8.2",
+    "vue": "^3.5.13",
+    "vuepress-shared": "workspace:*"
+  },
+  "devDependencies": {
+    "rollup": "4.29.1"
+  },
+  "peerDependencies": {
+    "sass": "^1.81.0",
+    "sass-embedded": "^1.81.0",
+    "sass-loader": "^16.0.2",
+    "vuepress": "2.0.0-rc.19"
+  },
+  "peerDependenciesMeta": {
+    "sass": {
+      "optional": true
+    },
+    "sass-embedded": {
+      "optional": true
+    },
+    "sass-loader": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=18.19.0",
+    "npm": ">=8",
+    "pnpm": ">=7",
+    "yarn": ">=2"
+  }
+}
