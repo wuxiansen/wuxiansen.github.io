@@ -1,0 +1,61 @@
+name: 配置 GitHub Pages
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/deploy-docs.yml'
+      - '.github/workflows/configure-pages.yml'
+
+jobs:
+  configure:
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+      contents: read
+    steps:
+      - name: 配置 GitHub Pages 使用 gh-pages 分支
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "🔧 配置 GitHub Pages 从 gh-pages 分支部署..."
+
+          # 使用 GitHub API 配置 Pages
+          curl -L \
+            -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/${{ github.repository }}/pages \
+            -d '{"source":{"branch":"gh-pages","path":"/"},"build_type":"legacy"}' || true
+
+          # 更新 Pages 配置（如果已存在）
+          curl -L \
+            -X PUT \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/${{ github.repository }}/pages \
+            -d '{"source":{"branch":"gh-pages","path":"/"}}' || true
+
+          echo "✅ GitHub Pages 配置完成"
+          echo "📝 网站应该可以通过 https://wuxiansen.github.io 访问"
+
+      - name: 等待 Pages 构建完成
+        run: |
+          echo "⏳ 等待 GitHub Pages 构建..."
+          sleep 10
+
+      - name: 显示配置信息
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "📊 当前 GitHub Pages 配置："
+          curl -L \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/${{ github.repository }}/pages
