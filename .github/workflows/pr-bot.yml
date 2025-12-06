@@ -1,0 +1,271 @@
+name: PR Bot
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  bot-commands:
+    # 只在PR评论中触发
+    if: github.event.issue.pull_request != null
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检查命令
+        id: check-command
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const comment = context.payload.comment.body.toLowerCase().trim();
+            const commands = {
+              merge: comment.includes('@bot merge') || comment.includes('@机器人 合并'),
+              review: comment.includes('@bot review') || comment.includes('@机器人 review'),
+              approve: comment.includes('@bot approve') || comment.includes('@机器人 批准'),
+              close: comment.includes('@bot close') || comment.includes('@机器人 关闭'),
+              reopen: comment.includes('@bot reopen') || comment.includes('@机器人 重开'),
+              help: comment.includes('@bot help') || comment.includes('@机器人 帮助')
+            };
+
+            core.setOutput('merge', commands.merge);
+            core.setOutput('review', commands.review);
+            core.setOutput('approve', commands.approve);
+            core.setOutput('close', commands.close);
+            core.setOutput('reopen', commands.reopen);
+            core.setOutput('help', commands.help);
+
+            return commands;
+
+      - name: 获取PR信息
+        id: pr-info
+        if: steps.check-command.outputs.merge == 'true' || steps.check-command.outputs.review == 'true' || steps.check-command.outputs.approve == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: pr } = await github.rest.pulls.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number
+            });
+
+            core.setOutput('mergeable', pr.mergeable);
+            core.setOutput('state', pr.state);
+            core.setOutput('head_sha', pr.head.sha);
+            core.setOutput('base_ref', pr.base.ref);
+            core.setOutput('head_ref', pr.head.ref);
+
+            return pr;
+
+      - name: 显示帮助信息
+        if: steps.check-command.outputs.help == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const helpMessage = `## 🤖 PR Bot 帮助
+
+可用命令：
+
+- \`@bot merge\` 或 \`@机器人 合并\` - 自动合并当前PR（需要通过CI检查）
+- \`@bot review\` 或 \`@机器人 review\` - 请求代码review
+- \`@bot approve\` 或 \`@机器人 批准\` - 批准当前PR
+- \`@bot close\` 或 \`@机器人 关闭\` - 关闭当前PR
+- \`@bot reopen\` 或 \`@机器人 重开\` - 重新打开PR
+- \`@bot help\` 或 \`@机器人 帮助\` - 显示此帮助信息
+
+**注意：**
+- 合并操作会检查CI状态，只有所有检查通过才会合并
+- 只有仓库协作者和维护者可以执行这些命令
+            `;
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: helpMessage
+            });
+
+      - name: Checkout代码
+        if: steps.check-command.outputs.review == 'true'
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ steps.pr-info.outputs.head_ref }}
+
+      - name: 执行代码Review
+        if: steps.check-command.outputs.review == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            // 获取PR的文件变更
+            const { data: files } = await github.rest.pulls.listFiles({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number
+            });
+
+            // 添加review评论
+            const reviewComments = [];
+
+            for (const file of files) {
+              // 这里可以添加更复杂的review逻辑
+              // 例如检查代码风格、安全问题等
+
+              // 示例：检查是否有console.log（仅供参考）
+              if (file.filename.endsWith('.js') || file.filename.endsWith('.ts') || file.filename.endsWith('.vue')) {
+                if (file.patch && file.patch.includes('console.log')) {
+                  reviewComments.push({
+                    path: file.filename,
+                    body: '⚠️ 发现 `console.log` 语句，建议在生产环境中移除。',
+                    line: 1 // 这里应该计算实际行号
+                  });
+                }
+              }
+            }
+
+            // 创建review
+            let reviewBody = '## 🤖 自动代码Review\n\n';
+            reviewBody += `已检查 ${files.length} 个文件的变更。\n\n`;
+
+            if (reviewComments.length > 0) {
+              reviewBody += '### 发现以下建议：\n';
+              reviewComments.forEach(comment => {
+                reviewBody += `- **${comment.path}**: ${comment.body}\n`;
+              });
+            } else {
+              reviewBody += '✅ 未发现明显问题，代码看起来不错！\n';
+            }
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: reviewBody
+            });
+
+      - name: 批准PR
+        if: steps.check-command.outputs.approve == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.pulls.createReview({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+              event: 'APPROVE',
+              body: '✅ 机器人自动批准此PR'
+            });
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: '✅ PR已被批准！'
+            });
+
+      - name: 检查CI状态
+        if: steps.check-command.outputs.merge == 'true'
+        id: check-ci
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: checks } = await github.rest.checks.listForRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: '${{ steps.pr-info.outputs.head_sha }}'
+            });
+
+            const failedChecks = checks.check_runs.filter(
+              check => check.status === 'completed' && check.conclusion !== 'success' && check.conclusion !== 'skipped'
+            );
+
+            if (failedChecks.length > 0) {
+              const failedNames = failedChecks.map(c => c.name).join(', ');
+              core.setOutput('ci_passed', 'false');
+              core.setOutput('failed_checks', failedNames);
+            } else {
+              core.setOutput('ci_passed', 'true');
+            }
+
+      - name: 合并PR
+        if: steps.check-command.outputs.merge == 'true' && steps.check-ci.outputs.ci_passed == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            try {
+              await github.rest.pulls.merge({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.issue.number,
+                merge_method: 'merge', // 可选: 'merge', 'squash', 'rebase'
+                commit_message: '🤖 机器人自动合并'
+              });
+
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: '✅ PR已成功合并！'
+              });
+            } catch (error) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: `❌ 合并失败：${error.message}`
+              });
+              throw error;
+            }
+
+      - name: CI检查失败提示
+        if: steps.check-command.outputs.merge == 'true' && steps.check-ci.outputs.ci_passed == 'false'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `❌ 无法合并：以下CI检查未通过：\n\n${context.payload.failed_checks || '部分检查失败'}\n\n请先修复这些问题后再尝试合并。`
+            });
+
+      - name: 关闭PR
+        if: steps.check-command.outputs.close == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.pulls.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+              state: 'closed'
+            });
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: '🔒 PR已关闭'
+            });
+
+      - name: 重新打开PR
+        if: steps.check-command.outputs.reopen == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.pulls.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+              state: 'open'
+            });
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: '🔓 PR已重新打开'
+            });

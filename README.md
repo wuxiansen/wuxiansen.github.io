@@ -84,6 +84,32 @@ gh workflow run auto-deploy.yml -f branch=main -f environment=production
 
 详细说明请查看：[GitHub Actions Workflows 使用说明](.github/workflows/README.md)
 
+## 🤖 PR 机器人
+
+项目集成了智能PR管理机器人，支持通过评论命令自动执行常见操作：
+
+### 快速使用
+
+在PR评论中输入命令：
+
+```markdown
+@bot merge          # 自动合并PR（需通过CI检查）
+@bot review         # 自动代码review
+@bot approve        # 批准PR
+@bot help           # 查看帮助
+```
+
+也支持中文命令：`@机器人 合并`、`@机器人 review` 等
+
+### 功能特性
+
+- ✅ 自动合并（检查CI状态）
+- ✅ 代码Review（检查常见问题）
+- ✅ 批准/关闭PR
+- ✅ 中英文命令支持
+
+详细使用说明：[PR机器人文档](.github/workflows/README.md#4-pr-botyml---pr-机器人-)
+
 ## 使用方式
 因本项目为个人项目，其中有很多个性化配置，不建议直接clone使用，可以选择你喜欢的内容模块（本地插件、本地替换组件）到自己项目中使用
 
