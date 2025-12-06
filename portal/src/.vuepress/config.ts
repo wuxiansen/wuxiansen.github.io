@@ -13,8 +13,8 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "WuXiansen 的知识库",
-      description: "记录技术成长、分享投资心得、整理学习资源的个人知识库",
+      title: "综合门户网站",
+      description: "专业的技术、金融、教育综合门户平台",
     },
   },
 
