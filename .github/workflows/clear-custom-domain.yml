@@ -1,0 +1,35 @@
+name: 清除 GitHub Pages 自定义域名
+
+on:
+  workflow_dispatch:
+
+jobs:
+  clear-domain:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout gh-pages 分支
+        uses: actions/checkout@v3
+        with:
+          ref: gh-pages
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 确保 CNAME 文件不存在
+        run: |
+          if [ -f CNAME ]; then
+            echo "删除 CNAME 文件"
+            rm CNAME
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add CNAME
+            git commit -m "chore: 移除 CNAME 文件以清除自定义域名"
+            git push
+          else
+            echo "CNAME 文件已不存在"
+          fi
+
+      - name: 提示信息
+        run: |
+          echo "✅ 已确保 gh-pages 分支没有 CNAME 文件"
+          echo "⚠️  请注意：你仍需要手动在 GitHub 仓库设置中清除自定义域名"
+          echo "🔗 访问: https://github.com/wuxiansen/wuxiansen.github.io/settings/pages"
+          echo "📝 在 'Custom domain' 部分清空域名并保存"
