@@ -8,8 +8,8 @@
     "build": "vuepress build src"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.26",
-    "vuepress": "2.0.0-rc.26",
+    "@vuepress/bundler-vite": "2.0.0-rc.20",
+    "vuepress": "2.0.0-rc.20",
     "vuepress-theme-hope": "2.0.0-rc.74"
   }
 }
