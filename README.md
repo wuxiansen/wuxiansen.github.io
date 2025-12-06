@@ -2,8 +2,6 @@
 
 # 博客源码
 
-地址：[https://oragekk.me](https://oragekk.me)
-
 基于`vuepress2.x`和`vuepress-theme-hope`开发，基于TypeScript使用vue3编写组件
 
 ## 框架支持
