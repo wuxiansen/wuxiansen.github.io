@@ -1,6 +1,0 @@
-packages:
-  - demo/*
-  - docs/*
-  - docs-shared/
-  - packages/*
-  - portal

@@ -1,72 +1,72 @@
-<!-- markdownlint-disable -->
-<p align="center">
-  <img width="240" src="https://theme-hope-assets.vuejs.press/logo.svg" style="text-align: center;">
-</p>
-<h1 align="center">vuepress-theme-hope</h1>
-<h4 align="center">A VuePress theme with tons of features✨</h4>
+![](https://img.shields.io/badge/version-2.5.0-orange) ![](https://img.shields.io/badge/theme-hope-green) ![](https://img.shields.io/badge/powerby-vuepress-lightgrey?style=flat-square&logo=appveyor) ![](https://img.shields.io/badge/deploy-vercel-lightgrey?style=flat-square&logo=vercel) ![](https://img.shields.io/github/last-commit/oragekk/oragekk.github.io?display_timestamp=committer)
 
-<h4 align="center">
+# 博客源码
 
-[中文简介](README-zh.md) | [Russian README](https://github.com/vuepress-theme-hope/theme-ru-docs)
+地址：[https://oragekk.me](https://oragekk.me)
 
-</h4>
+基于`vuepress2.x`和`vuepress-theme-hope`开发，基于TypeScript使用vue3编写组件
 
-[![Author: Mr.Hope](https://img.shields.io/badge/Author-Mr.Hope-blue.svg?style=for-the-badge)](https://mister-hope.com)
-[![License](https://img.shields.io/npm/l/vuepress-theme-hope.svg?style=for-the-badge)](https://github.com/vuepress-theme-hope/vuepress-theme-hope/blob/main/LICENSE)
-[![Open in Visual Studio Code](https://img.shields.io/badge/-open%20in%20vscode-blue?style=for-the-badge&logo=visualstudiocode)](https://open.vscode.dev/vuepress-theme-hope/vuepress-theme-hope)
+## 框架支持
 
-<!-- markdownlint-restore -->
+[vuepress2.x](https://v2.vuepress.vuejs.org/zh/)
 
-[![Version](https://img.shields.io/npm/v/vuepress-theme-hope.svg?style=flat-square&logo=npm)![Downloads](https://img.shields.io/npm/dm/vuepress-theme-hope.svg?style=flat-square&logo=npm)![Total downloads](https://img.shields.io/npm/dt/vuepress-theme-hope?style=flat-square&logo=npm)](https://www.npmjs.com/package/vuepress-theme-hope)
+## 主题支持
 
-[![open collective](https://opencollective.com/vuepress-theme-hope/tiers/badge.svg)](https://opencollective.com/vuepress-theme-hope)
+[vuepress-theme-hope](https://theme-hope.vuejs.press/zh/)
 
-[![DeepScan grade](https://deepscan.io/api/teams/9792/projects/17544/branches/405512/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=9792&pid=17544&bid=405512)
-![CodeQL](https://github.com/vuepress-theme-hope/vuepress-theme-hope/actions/workflows/codeql-analysis.yml/badge.svg)
-[![code cov](https://codecov.io/gh/vuepress-theme-hope/vuepress-theme-hope/branch/main/graph/badge.svg?token=TNYMbGlxQ9)](https://codecov.io/gh/vuepress-theme-hope/vuepress-theme-hope)
-![Test theme](https://github.com/vuepress-theme-hope/vuepress-theme-hope/actions/workflows/main.yml/badge.svg)
+## 自定义内容
 
-A VuePress theme with tons of features✨
+基于原主题进行了继承，个性化内容如下，主要自定义内容分为
 
-## [English Docs](https://theme-hope.vuejs.press/)
+1. **自定义布局**
+   - NotFound.vue
+   - Layout.vue(增加打赏组件)
+   - News.vue(说说列表布局)
 
-## [Online Demo](https://stackblitz.com/fork/vuepress-theme-hope)
+2. **自定义组件**
 
-## Special Sponsor
+   - BlogHero.vue
+   - PageFooter.vue
+   - Sponsor.vue（打赏组件）
+   - NewsList.vue （说说列表）
+   - NewsItem.vue （说说item）
 
-[![Grey Software](https://vuepress-theme-hope.github.io/grey-software.svg)](https://grey.software/)
+3. **插件开发**
 
-## Contact
+   - vuepress-plugin-canvas（支持彩虹背景和动态几何图形两种）
+   - vuepress-plugin-gradient-cover （遮罩背景）
+   - vuepress-plugin-hitokoto （一言插件）
+   - vuepress-plugin-live2DAssist （看板娘辅助，由于子页有sidebar，看板娘会挡住，所以写了一个子页隐藏的小东西）
+   - vuepress-plugin-popper （鼠标特效，基于[@moefy-canvas/theme-popper](https://github.com/moefyit/moefy-canvas)）
+   - [vuepress-plugin-meting2](https://github.com/OrageKK/vuepress-plugin-meting2) （播放器插件，可以全局使用和md文件使用）
+4. **引用外部内容**
 
-We recommend you to contact using [issues](https://github.com/vuepress-theme-hope/vuepress-theme-hope/issues) and [discussions](https://github.com/vuepress-theme-hope/vuepress-theme-hope/discussions), but you are welcome to join our [telegram group!](https://t.me/vuepressthemehope).
+   - [vuepress-plugin-oh-my-live2d](https://github.com/oh-my-live2d/vuepress-plugin-oh-my-live2d) 看板娘插件
 
-## Details
+   - 不蒜子统计
 
-V2 is based on [**VuePress2**](https://vuejs.press), with the power of [**Vite6**](https://vite.dev) / [**Webpack5**](https://webpack.js.org) using [**Vue3**](https://vuejs.org) to provide powerful features.
+   - [@moefy-canvas/theme-popper](https://github.com/moefyit/moefy-canvas)原有插件只支持vuepress1.x，自己基于moefy-canvas进行了支持vuepress2.x的本地化插件开发
 
-V2 is a full rewrite including:
+   - [@vuepress/plugin-google-analytics](https://v2.vuepress.vuejs.org/zh/reference/plugin/google-analytics.html) 支持Google Analytics 4 正好看到通知原来的UA也要被强制转换了，所以更换了G4
+5. **配置内容**
+   - navbar
+   - sidebar
+   - 评论基于 [Waline](https://waline.js.org/)
+   - 搜索基于[algolia](https://www.algolia.com/developers/?utm_content=powered_by&utm_source=localhost&utm_medium=referral&utm_campaign=docsearch)
+   - 启用 copyright 版权信息插件
+   - feed rss插件
+   - 增加文章类型-说说，为说说markdown图片添加预览选择器
 
-- All the components are rewritten with **Composition API in Vue3**
-- All the styles are migrated to **Sass**
+6. **零碎**
+   - 运行时间统计
+   - CSS 样式美化
+   - 引入字体，品如手写体，夏行楷体
+   - waline 增加自定义emoji，并修改展示样式
+   - 个性log
+   - 自动推送新文章url到搜索引擎（百度、Bing、Google）👉[详细配置](https://oragekk.me/blog/auto-push.html)
 
-Also V2 has a better performance:🚀
 
-- DevServer cold start time reduced by **70%**
-- Build memory usage reduced by **65%**
-- Build time reduced by **75%**
-- Output Size reduced by **45%**
-- Webpage performance up to **60%**
+## 使用方式
+因本项目为个人项目，其中有很多个性化配置，不建议直接clone使用，可以选择你喜欢的内容模块（本地插件、本地替换组件）到自己项目中使用
 
-## Project Status
-
-![Status](https://repobeats.axiom.co/api/embed/1164cd0962fe9e8ce7fd3785cb28c79adecf8a26.svg)
-
-## Contributors
-
-Thanks to all the contributors!
-
-[![contributors](https://contrib.rocks/image?repo=vuepress-theme-hope/vuepress-theme-hope)](https://github.com/vuepress-theme-hope/vuepress-theme-hope/graphs/contributors)
-
-## Stargazers over time
-
-[![Stargazers over time](https://starchart.cc/vuepress-theme-hope/vuepress-theme-hope.svg)](https://starchart.cc/vuepress-theme-hope/vuepress-theme-hope)
+ >详细介绍参考：[关于本站](https://oragekk.me/about)
