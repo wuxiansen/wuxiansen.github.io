@@ -7,7 +7,7 @@ export default hopeTheme({
   hostname: "https://wuxiansen.github.io",
 
   author: {
-    name: "Portal Team",
+    name: "WuXiansen",
     url: "https://wuxiansen.github.io",
   },
 
@@ -36,12 +36,12 @@ export default hopeTheme({
       // Sidebar
       sidebar: zhSidebar,
 
-      footer: "综合门户网站 © 2024",
+      footer: "WuXiansen 的知识库 © 2024",
 
       displayFooter: true,
 
       blog: {
-        description: "专业的技术、金融、教育综合门户平台",
+        description: "记录技术成长、分享投资心得、整理学习资源",
         intro: "/about.html",
       },
 
