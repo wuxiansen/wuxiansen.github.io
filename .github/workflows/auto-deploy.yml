@@ -1,0 +1,93 @@
+name: 自动部署
+
+on:
+  # 支持手动触发
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: '要部署的分支'
+        required: true
+        default: 'main'
+        type: choice
+        options:
+          - main
+          - dev
+      environment:
+        description: '部署环境'
+        required: true
+        default: 'production'
+        type: choice
+        options:
+          - production
+          - staging
+
+  # 也可以通过 repository_dispatch 事件触发
+  repository_dispatch:
+    types: [deploy]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 获取分支信息
+        id: branch
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "branch=${{ inputs.branch }}" >> $GITHUB_OUTPUT
+          elif [ "${{ github.event_name }}" = "repository_dispatch" ]; then
+            echo "branch=${{ github.event.client_payload.branch || 'main' }}" >> $GITHUB_OUTPUT
+          else
+            echo "branch=main" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Checkout 代码
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ steps.branch.outputs.branch }}
+          token: ${{ secrets.PAT_TOKEN }}
+          fetch-depth: 0
+          submodules: true
+
+      - name: 安装 pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 9.1.2
+
+      - name: 设置 Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'pnpm'
+
+      - name: 安装依赖
+        run: pnpm install --frozen-lockfile
+
+      - name: 构建文档
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: |
+          pnpm build
+          > src/.vuepress/dist/.nojekyll
+
+      - name: 部署到 GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: src/.vuepress/dist
+          token: ${{ secrets.PAT_TOKEN }}
+          clean: true
+          single-commit: false
+
+      - name: 部署成功通知
+        if: success()
+        run: |
+          echo "✅ 部署成功！"
+          echo "分支: ${{ steps.branch.outputs.branch }}"
+          echo "环境: ${{ inputs.environment || 'production' }}"
+          echo "触发方式: ${{ github.event_name }}"
+
+      - name: 部署失败通知
+        if: failure()
+        run: |
+          echo "❌ 部署失败！"
+          echo "请检查构建日志"

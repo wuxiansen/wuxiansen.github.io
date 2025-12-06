@@ -66,6 +66,26 @@
    - 自动推送新文章url到搜索引擎（百度、Bing、Google）👉[详细配置](https://oragekk.me/blog/auto-push.html)
 
 
+## 🚀 自动部署
+
+本项目支持多种自动部署方式：
+
+### 1. 自动部署（Push 触发）
+当代码推送到 `main` 分支时，会自动触发部署流程。
+
+### 2. 手动触发部署
+支持通过 GitHub Actions 界面或命令行手动触发部署：
+
+```bash
+# 使用便捷脚本（推荐）
+bash script/trigger-deploy.sh
+
+# 或使用 GitHub CLI
+gh workflow run auto-deploy.yml -f branch=main -f environment=production
+```
+
+详细说明请查看：[GitHub Actions Workflows 使用说明](.github/workflows/README.md)
+
 ## 使用方式
 因本项目为个人项目，其中有很多个性化配置，不建议直接clone使用，可以选择你喜欢的内容模块（本地插件、本地替换组件）到自己项目中使用
 
