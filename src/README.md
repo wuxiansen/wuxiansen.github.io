@@ -4,7 +4,7 @@ layout: BlogHome
 icon: home
 title: 主页
 heroImage: /logo.svg
-heroText: Wushu's Blog
+heroText: UncleWu's Blog
 bgImage: "/assets/home_bg3.jpg"
 heroFullScreen: true
 tagline: Goals determine what you are going to be. —— Julius Erving

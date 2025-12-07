@@ -24,7 +24,7 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "Wushu's Blog",
+      title: "UncleWu's Blog",
       description: "吴蜀黍的博客",
     },
   },

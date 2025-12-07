@@ -22,7 +22,7 @@ import MyCoverLink from "@MyCoverLink";
 
 ```yml
 昵称: "吴蜀黍",
-简介: "到最后，竟庆幸于夕阳仍留在身上",
+简介: "许多事来不及握紧，唯有这抹暖意还留在身旁。",
 头像: "https://wushushu.me/logo.svg",
 连接: "https://wushushu.me/"
 ```
@@ -32,7 +32,7 @@ import MyCoverLink from "@MyCoverLink";
 ```json
 {
   "name": "吴蜀黍",
-  "desc": "到最后，竟庆幸于夕阳仍留在身上",
+  "desc": "许多事来不及握紧，唯有这抹暖意还留在身旁。",
   "ico": "https://wushushu.me/logo.svg",
   "link": "https://wushushu.me/"
 }
@@ -41,7 +41,7 @@ import MyCoverLink from "@MyCoverLink";
 
 ```yml
 - name: "吴蜀黍",
-- desc: "到最后，竟庆幸于夕阳仍留在身上",
+- desc: "许多事来不及握紧，唯有这抹暖意还留在身旁。",
 - ico: "https://wushushu.me/logo.svg",
 - link: "https://wushushu.me/"
 ```
