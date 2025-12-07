@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/version-2.5.0-orange) ![](https://img.shields.io/badge/theme-hope-green) ![](https://img.shields.io/badge/powerby-vuepress-lightgrey?style=flat-square&logo=appveyor) ![](https://img.shields.io/badge/deploy-vercel-lightgrey?style=flat-square&logo=vercel) ![](https://img.shields.io/github/last-commit/oragekk/oragekk.github.io?display_timestamp=committer)
+![](https://img.shields.io/badge/version-2.5.0-orange) ![](https://img.shields.io/badge/theme-hope-green) ![](https://img.shields.io/badge/powerby-vuepress-lightgrey?style=flat-square&logo=appveyor) ![](https://img.shields.io/badge/deploy-vercel-lightgrey?style=flat-square&logo=vercel) ![](https://img.shields.io/github/last-commit/wushushu/wushushu.github.io?display_timestamp=committer)
 
 # 博客源码
 
@@ -61,7 +61,7 @@
    - 引入字体，品如手写体，夏行楷体
    - waline 增加自定义emoji，并修改展示样式
    - 个性log
-   - 自动推送新文章url到搜索引擎（百度、Bing、Google）👉[详细配置](https://oragekk.me/blog/auto-push.html)
+   - 自动推送新文章url到搜索引擎（百度、Bing、Google）👉[详细配置](https://wushushu.me/blog/auto-push.html)
 
 
 ## 🚀 自动部署
@@ -113,4 +113,4 @@ gh workflow run auto-deploy.yml -f branch=main -f environment=production
 ## 使用方式
 因本项目为个人项目，其中有很多个性化配置，不建议直接clone使用，可以选择你喜欢的内容模块（本地插件、本地替换组件）到自己项目中使用
 
- >详细介绍参考：[关于本站](https://oragekk.me/about)
+ >详细介绍参考：[关于本站](https://wushushu.me/about)

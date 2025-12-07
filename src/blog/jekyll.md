@@ -12,7 +12,7 @@ tag:
 
 ## 前言
 
-Oragekk 的 Blog 就这么开通了。
+Wushushu 的 Blog 就这么开通了。
 
 [跳过废话，直接看技术实现 ](#build)
 

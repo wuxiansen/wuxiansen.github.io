@@ -24,8 +24,8 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "Oragekk's Blog",
-      description: "上冬十二的博客",
+      title: "Wushu's Blog",
+      description: "吴蜀黍的博客",
     },
   },
   alias: {
@@ -101,7 +101,7 @@ export default defineUserConfig({
     docsearchPlugin({
       appId: "PI9QTF572N",
       apiKey: "07e2432555d8ecdd3fb72978f0a05cdc",
-      indexName: "oragekk",
+      indexName: "wushushu",
       locales: {
         "/": {
           placeholder: "搜索内容",
@@ -151,7 +151,7 @@ export default defineUserConfig({
     //   models: [
     //     {
     //       scale: 0.04,
-    //       path: "https://cdn.jsdelivr.net/gh/oragekk/blog-assets/live2D/sipeibojue_5/sipeibojue_5.model3.json",
+    //       path: "https://cdn.jsdelivr.net/gh/wushushu/blog-assets/live2D/sipeibojue_5/sipeibojue_5.model3.json",
     //       position: [0, 70],
     //       stageStyle: {
     //         height: 350
@@ -159,7 +159,7 @@ export default defineUserConfig({
     //     },
     //     {
     //       scale: 0.04,
-    //       path: "https://cdn.jsdelivr.net/gh/oragekk/blog-assets/live2D/lafei_4/lafei_4.model3.json",
+    //       path: "https://cdn.jsdelivr.net/gh/wushushu/blog-assets/live2D/lafei_4/lafei_4.model3.json",
     //       position: [0, 80],
     //       stageStyle: {
     //         height: 360
@@ -167,7 +167,7 @@ export default defineUserConfig({
     //     },
     //     {
     //       scale: 0.1,
-    //       path: "https://cdn.jsdelivr.net/gh/oragekk/blog-assets/live2D/z46_2/z46_2.model3.json",
+    //       path: "https://cdn.jsdelivr.net/gh/wushushu/blog-assets/live2D/z46_2/z46_2.model3.json",
     //       position: [0, 60],
     //       stageStyle: {
     //         height: 330

@@ -7,10 +7,10 @@ export interface LinkData {
 
 export const friends: LinkData[] = [
   {
-    name: "上冬十二",
+    name: "吴蜀黍",
     desc: "到最后，竟庆幸于夕阳仍留在身上",
     icon: "/logo.svg",
-    link: "https://oragekk.me/",
+    link: "https://wushushu.me/",
   },
   {
     name: "廿壴(GANXB2)博客",
