@@ -16,7 +16,7 @@ comment: false
 _Exploration & geek enthusiast, full-stack front-end engineer, UX Designer | Currently focusing on cross-platform development with main directions in iOS, ReactNative, Flutter, and Vue | Discovering a bigger world together with you._
 
 :::tip Profile
-探索 & 极客 爱好者，大前端工程师，用户体验设计师 |目前主要研究方向在跨平台开发上，iOS、ReactNative、Flutter、Vue是主要方向| 期待与你一起发现更大的世界
+探索 & 期待与你一起发现更大的世界
 :::
 ## Skills
 ### Languages
