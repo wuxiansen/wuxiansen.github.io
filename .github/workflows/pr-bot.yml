@@ -67,19 +67,18 @@ jobs:
           script: |
             const helpMessage = `## 🤖 PR Bot 帮助
 
-可用命令：
+            可用命令：
 
-- \`@bot merge\` 或 \`@机器人 合并\` - 自动合并当前PR（需要通过CI检查）
-- \`@bot review\` 或 \`@机器人 review\` - 请求代码review
-- \`@bot approve\` 或 \`@机器人 批准\` - 批准当前PR
-- \`@bot close\` 或 \`@机器人 关闭\` - 关闭当前PR
-- \`@bot reopen\` 或 \`@机器人 重开\` - 重新打开PR
-- \`@bot help\` 或 \`@机器人 帮助\` - 显示此帮助信息
+            - \`@bot merge\` 或 \`@机器人 合并\` - 自动合并当前PR（需要通过CI检查）
+            - \`@bot review\` 或 \`@机器人 review\` - 请求代码review
+            - \`@bot approve\` 或 \`@机器人 批准\` - 批准当前PR
+            - \`@bot close\` 或 \`@机器人 关闭\` - 关闭当前PR
+            - \`@bot reopen\` 或 \`@机器人 重开\` - 重新打开PR
+            - \`@bot help\` 或 \`@机器人 帮助\` - 显示此帮助信息
 
-**注意：**
-- 合并操作会检查CI状态，只有所有检查通过才会合并
-- 只有仓库协作者和维护者可以执行这些命令
-            `;
+            **注意：**
+            - 合并操作会检查CI状态，只有所有检查通过才会合并
+            - 只有仓库协作者和维护者可以执行这些命令`;
 
             await github.rest.issues.createComment({
               owner: context.repo.owner,
