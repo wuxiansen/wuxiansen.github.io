@@ -19,7 +19,7 @@ tag:
 ## 利弊分析
 
 1. 前两种，都需要在`didSelectRowAtIndexPath`方法中来刷新表格，可能会造成不必要的滑动，而且需要单独的外在属性来记录这个选择
-2. 第三种方法是我要介绍的，不用任何外在属性，不用变量，不用数组。实现 cell、或 cell 中 Button 的单选。并且不会因为复用而造成位置错乱，如果要实现 cell 的多选可以参考我之前的文章[Cell 的 accessoryType 属性标记单元格之后，出现的重用问题](http://oragekk.me/02-13-2017/cell%E5%A4%8D%E7%94%A8-accessoryType%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95.html)
+2. 第三种方法是我要介绍的，不用任何外在属性，不用变量，不用数组。实现 cell、或 cell 中 Button 的单选。并且不会因为复用而造成位置错乱，如果要实现 cell 的多选可以参考我之前的文章[Cell 的 accessoryType 属性标记单元格之后，出现的重用问题](http://wushushu.me/02-13-2017/cell%E5%A4%8D%E7%94%A8-accessoryType%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95.html)
 
 ## 实现方式
 

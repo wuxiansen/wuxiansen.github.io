@@ -3,11 +3,11 @@ import { zhNavbar } from "./navbar/index.js";
 import { zhSidebar } from "./sidebar/index.js";
 export default MyTheme({
   hotReload: true,
-  hostname: "https://oragekk.me",
+  hostname: "https://wushushu.me",
   themeColor: true,
   fullscreen: true,
   author: {
-    name: "Oragekk",
+    name: "Wushushu",
     url: "https://orgaekk.me",
   },
 
@@ -20,7 +20,7 @@ export default MyTheme({
 
   logo: "/logo.svg",
 
-  repo: "OrageKK/oragekk.github.io",
+  repo: "OrageKK/wushushu.github.io",
 
   docsDir: "src",
 
@@ -38,14 +38,14 @@ export default MyTheme({
       // Dingding: "https://example.com",
       // Discord: "https://example.com",
       // Dribbble: "https://example.com",
-      Email: "mailto:oragekk@163.com",
+      Email: "mailto:wushushu@163.com",
       // Evernote: "https://example.com",
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",
       // Gitee: "https://example.com",
       GitHub: "https://github.com/OrageKK",
       // Gitlab: "https://example.com",
-      Gmail: "mailto:oragekk@gmail.com",
+      Gmail: "mailto:wushushu@gmail.com",
       // Instagram: "https://example.com",
       // Lark: "https://example.com",
       // Lines: "https://example.com",
@@ -65,7 +65,7 @@ export default MyTheme({
       // Zhihu: "https://example.com",
 
     },
-    name: "上冬十二",
+    name: "吴蜀黍",
   },
   locales: {
     /**
@@ -141,7 +141,7 @@ export default MyTheme({
     },
     comment: {
       provider: "Waline",
-      serverURL: "https://talk.oragekk.me/", // your server url
+      serverURL: "https://talk.wushushu.me/", // your server url
       reaction: true,
       requiredMeta: ["nick", 'mail'],
       wordLimit: 300,
@@ -166,7 +166,7 @@ export default MyTheme({
     },
     prismjs: false,
     copyright: {
-      author: "Oragekk",
+      author: "Wushushu",
       license: "CC BY-NC-SA 4.0",
       global: true,
     },

@@ -37,15 +37,15 @@ _Exploration & geek enthusiast, full-stack front-end engineer, UX Designer | Cur
 
 ## Github Summary
 
-<img src="https://github-trophies.vercel.app/?username=oragekk&theme=radical&margin-w=25" alt="Github Summary"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=oragekk&theme=radical&layout=compact&bg_color=30,ef475d,904e95&title_color=fff&text_color=fff" />
-<img src="https://github-readme-stats.vercel.app/api?username=oragekk&count_private=true&show_icons=true&theme=radical&bg_color=30,ef475d,904e95&title_color=fff&text_color=fff" />
+<img src="https://github-trophies.vercel.app/?username=wushushu&theme=radical&margin-w=25" alt="Github Summary"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wushushu&theme=radical&layout=compact&bg_color=30,ef475d,904e95&title_color=fff&text_color=fff" />
+<img src="https://github-readme-stats.vercel.app/api?username=wushushu&count_private=true&show_icons=true&theme=radical&bg_color=30,ef475d,904e95&title_color=fff&text_color=fff" />
 
 ## Preview
-![:Augenestern-creator](https://count.getloli.com/get/@:oragekk?theme=gelbooru-h)
+![:Augenestern-creator](https://count.getloli.com/get/@:wushushu?theme=gelbooru-h)
 
 ## Activity Graph
- [![Ashutosh's github activity graph](https://github-readme-activity-graph-sandy.vercel.app/graph?username=oragekk&theme=dracula)](https://github.com/OrageKK/github-readme-activity-graph)
+ [![Ashutosh's github activity graph](https://github-readme-activity-graph-sandy.vercel.app/graph?username=wushushu&theme=dracula)](https://github.com/OrageKK/github-readme-activity-graph)
 
 ## 关于本站
 [传送门](/about)
