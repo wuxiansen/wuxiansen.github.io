@@ -8,7 +8,7 @@ export default MyTheme({
   fullscreen: true,
   author: {
     name: "Wushushu",
-    url: "https://orgaekk.me",
+    url: "https://wushushu.me",
   },
 
   iconAssets: [
@@ -20,7 +20,7 @@ export default MyTheme({
 
   logo: "/logo.svg",
 
-  repo: "OrageKK/wushushu.github.io",
+  repo: "wushushu/wushushu.github.io",
 
   docsDir: "src",
 
