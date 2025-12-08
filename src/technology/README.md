@@ -1,5 +1,5 @@
 ---
-title: "ji技术栈"
+title: "技术栈"
 icon: "code"
 date: 1978-01-09
 index: true

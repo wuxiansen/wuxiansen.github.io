@@ -3,8 +3,8 @@ home: true
 title: 收藏
 icon: home
 heroImage: /logo.svg
-heroText: 你发现了有趣的地方~
-tagline: ✨穹顶之下，仰望繁星。✨
+heroText: 每一次驻足，都是与世界交换灵光的瞬间。
+tagline: ✨天幕如画布，而你是落在其上的第一颗微光。✨
 actions:
   - text: 回到主页 🧭
     link: /
