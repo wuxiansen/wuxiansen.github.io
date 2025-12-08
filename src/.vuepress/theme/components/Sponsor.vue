@@ -37,9 +37,9 @@ const githubLink = "https://github.com/OrageKK/sponsor-page";
 const paypalLink = "https://www.paypal.me/wushushu";
 const qrCodes = reactive({
   // btc_donate: "/assets/images/BTCQR.png",
-  alipay_donate: "/assets/images/AliPayQR.jpg",
+  alipay_donate: "/assets/images/AliPay.png",
   alipay_donate_link: "https://qr.alipay.com/fkx10720tbvl7vbt30mmad4",
-  wechat_donate: "/assets/images/WeChanSQ.JPG",
+  wechat_donate: "/assets/images/WeChatPay.png",
 });
 const { isMobile } = useWindowSize();
 
