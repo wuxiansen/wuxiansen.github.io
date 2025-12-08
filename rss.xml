@@ -6,8 +6,8 @@
     <link>https://wushushu.me/</link>
     <description>吴蜀黍的博客</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 08 Dec 2025 03:00:44 GMT</pubDate>
-    <lastBuildDate>Mon, 08 Dec 2025 03:00:44 GMT</lastBuildDate>
+    <pubDate>Mon, 08 Dec 2025 06:11:24 GMT</pubDate>
+    <lastBuildDate>Mon, 08 Dec 2025 06:11:24 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Blog</category>
@@ -31,10 +31,6 @@
     <category>前端跨平台</category>
     <category>金融</category>
     <category>投资理财</category>
-    <category>软件技术</category>
-    <category>开发框架</category>
-    <category>编程语言</category>
-    <category>前端框架</category>
     <category>使用指南</category>
     <item>
       <title>关于本站</title>
@@ -571,12 +567,46 @@
       <link>https://wushushu.me/private/%E4%B8%80%E4%BA%BA%E4%B8%80%E5%8F%A5%E5%AE%8B%E8%AF%8D.html</link>
       <guid>https://wushushu.me/private/%E4%B8%80%E4%BA%BA%E4%B8%80%E5%8F%A5%E5%AE%8B%E8%AF%8D.html</guid>
       <source url="https://wushushu.me/rss.xml">一人一句宋词</source>
-      <description>Bing 每日壁纸Bing 每日壁纸 写来留待日后慢慢欣赏 😜 苏轼 十年生死两茫茫， 不思量，自难忘。 陆游 红酥手，黄藤酒， 满城春色宫墙柳。 李清照 此情无计可消除， 才下眉头，却上心头。 辛弃疾 众里寻他千百度。 蓦然回首，那人却在，灯火阑珊处。 柳永 多情自古伤离别， 更那堪冷落清秋节！ 范仲淹 羌管悠悠霜满地， 人不寐，将军白发征夫泪。 ...</description>
+      <description>Bing 每日壁纸Bing 每日壁纸 写来留待日后慢慢欣赏 😜 林澈 风吹一叶远，心事又随秋。 沈归晚 月到枝头白，情至心底深。 风行万里外，念你一人间。 江扶山 客路山千叠，梦中仍旧你。 陆明杳 春水添新绿，眉间一点思。 唐亦舟 灯火轻摇处，影子也是空。 人来人往外，唯有旧情浓。 苏怀安 雨过青苔湿，心事也沾衣。 柳暮云 夜深风更冷，想你却更真。 ...</description>
       <pubDate>Mon, 16 Jan 2017 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<figure><img src="https://file.mo7.cc/api/public/bz?idx=1" alt="Bing 每日壁纸" tabindex="0" loading="lazy"><figcaption>Bing 每日壁纸</figcaption></figure>
 <blockquote>
 <p>写来留待日后慢慢欣赏 😜</p>
 </blockquote>
+<h3>林澈</h3>
+<p>风吹一叶远，心事又随秋。</p>
+<h3>沈归晚</h3>
+<p>月到枝头白，情至心底深。<br>
+风行万里外，念你一人间。</p>
+<h3>江扶山</h3>
+<p>客路山千叠，梦中仍旧你。</p>
+<h3>陆明杳</h3>
+<p>春水添新绿，眉间一点思。</p>
+<h3>唐亦舟</h3>
+<p>灯火轻摇处，影子也是空。<br>
+人来人往外，唯有旧情浓。</p>
+<h3>苏怀安</h3>
+<p>雨过青苔湿，心事也沾衣。</p>
+<h3>柳暮云</h3>
+<p>夜深风更冷，想你却更真。</p>
+<h3>贺溪尘</h3>
+<p>星河一转身，落在你的名字上。</p>
+<h3>程若砚</h3>
+<p>山色随云淡，情意与日长。</p>
+<h3>卢静荷</h3>
+<p>花落如无事，人心却未安。</p>
+<h3>周野青</h3>
+<p>天光将晚处，有盏灯等你。<br>
+心事若潮起，自难与人说。</p>
+<h3>白吟岚</h3>
+<p>远山不语深，像我未说的心。</p>
+<h3>安清篱</h3>
+<p>风把旧梦翻，恍若又一年。</p>
+<h3>许墨笙</h3>
+<p>落霞难收色，相思难收心。</p>
+<h3>桑迟</h3>
+<p>月白如新纸，写你最分明。<br>
+风吹夜色醒，梦里又逢君。</p>
 <h3>苏轼</h3>
 <p>十年生死两茫茫，<br>
 不思量，自难忘。</p>
@@ -601,64 +631,6 @@
 <h3>岳飞</h3>
 <p>三十功名尘与土，八千里路云和月。<br>
 莫等闲、白了少年头，空悲切！</p>
-<h3>秦观</h3>
-<p>两情若是久长时，<br>
-又岂在朝朝暮暮。</p>
-<h3>李之仪</h3>
-<p>只愿君心似我心，<br>
-定不负相思意。</p>
-<h3>欧阳修</h3>
-<p>人生自是有情痴，<br>
-此恨不关风与月。</p>
-<h3>唐婉</h3>
-<p>世情薄，人情恶，<br>
-雨送黄昏花易落。</p>
-<h3>姜夔</h3>
-<p>二十四桥仍在，<br>
-波心荡、冷月无声。</p>
-<h3>晏几道</h3>
-<p>琵琶弦上说相思。<br>
-当时明月在，曾照彩云归。</p>
-<h3>李冠</h3>
-<p>一寸相思千万绪。<br>
-人间没个安排处。</p>
-<h3>宋祁</h3>
-<p>绿杨烟外晓寒轻，<br>
-红杏枝头春意闹。</p>
-<h3>周彦邦</h3>
-<p>执手霜风吹鬓影，<br>
-去意徊徨，别语愁难听。</p>
-<h3>万俟咏</h3>
-<p>短长亭，古今情。<br>
-楼外凉蟾一晕生，雨余秋更清。</p>
-<h3>蒋捷</h3>
-<p>流光容易把人抛，<br>
-红了樱桃，绿了芭蕉。</p>
-<h3>吴潜</h3>
-<p>老去惜花心，相对花无语。</p>
-<h3>刘著</h3>
-<p>江南几度梅花发，<br>
-人在天涯鬓已斑。</p>
-<h3>贺铸</h3>
-<p>试问闲情都几许。<br>
-一川烟草，满城风絮。梅子黄时雨。</p>
-<h3>严蕊</h3>
-<p>不是爱风尘，似被前缘误。<br>
-花落花开自有时，总赖东君主。</p>
-<h3>黄庭坚</h3>
-<p>若有人知春去处。<br>
-唤取归来同住。</p>
-<h3>张先</h3>
-<p>天不老，情难绝。<br>
-心似双丝网，中有千千结。</p>
-<h3>晁补之</h3>
-<p>人生无奈别离何。<br>
-夜长嫌梦短，泪少怕愁多。</p>
-<h3>乐婉</h3>
-<p>若是前生未有缘，<br>
-待重结、来生愿。</p>
-<h3>朱淑真</h3>
-<p>把酒送春春不语。黄昏却下潇潇雨。</p>
 <blockquote>
 <p>看完了，跪安吧。╮(╯_╰)╭</p>
 </blockquote>
@@ -3869,410 +3841,6 @@ TS 对 JS 的改进主要是静态类型检查，静态类型检查有何意义�
 <li><a href="/finance/articles/funds.html" target="_blank">基金投资指南</a></li>
 <li><a href="/finance/guides/technical-analysis.html" target="_blank">技术分析详解</a></li>
 <li><a href="/finance/guides/value-investing.html" target="_blank">价值投资实战</a></li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Django 开发指南</title>
-      <link>https://wushushu.me/technology/articles/django.html</link>
-      <guid>https://wushushu.me/technology/articles/django.html</guid>
-      <source url="https://wushushu.me/rss.xml">Django 开发指南</source>
-      <description>Django 开发指南 （内容待完善）</description>
-      <category>软件技术</category>
-      <category>开发框架</category>
-      <pubDate>Fri, 06 Dec 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>（内容待完善）</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Go 语言开发指南</title>
-      <link>https://wushushu.me/technology/articles/go.html</link>
-      <guid>https://wushushu.me/technology/articles/go.html</guid>
-      <source url="https://wushushu.me/rss.xml">Go 语言开发指南</source>
-      <description>Go 语言开发指南 Go 是 Google 开发的编程语言，以其简洁、高效、强大的并发特性而著称。 Go 特性 简洁的语法 高性能 内置并发支持 快速编译 并发编程 Goroutine Channel Select （内容待完善）</description>
-      <category>软件技术</category>
-      <category>编程语言</category>
-      <pubDate>Fri, 06 Dec 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>Go 是 Google 开发的编程语言，以其简洁、高效、强大的并发特性而著称。</p>
-<h2>Go 特性</h2>
-<ul>
-<li>简洁的语法</li>
-<li>高性能</li>
-<li>内置并发支持</li>
-<li>快速编译</li>
-</ul>
-<h2>并发编程</h2>
-<ul>
-<li>Goroutine</li>
-<li>Channel</li>
-<li>Select</li>
-</ul>
-<p>（内容待完善）</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Java 开发指南</title>
-      <link>https://wushushu.me/technology/articles/java.html</link>
-      <guid>https://wushushu.me/technology/articles/java.html</guid>
-      <source url="https://wushushu.me/rss.xml">Java 开发指南</source>
-      <description>Java 开发指南 Java 是一种广泛使用的面向对象编程语言，具有&amp;quot;一次编写，到处运行&amp;quot;的特性。 Java 简介 面向对象 跨平台 安全可靠 性能优异 快速开始 安装 JDK 下载并安装最新版本的 JDK。 Hello World 核心特性 面向对象编程 异常处理 多线程 集合框架 IO 流 网络编程 （内容待完善）</description>
-      <category>软件技术</category>
-      <category>编程语言</category>
-      <pubDate>Fri, 06 Dec 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>Java 是一种广泛使用的面向对象编程语言，具有"一次编写，到处运行"的特性。</p>
-<h2>Java 简介</h2>
-<ul>
-<li>面向对象</li>
-<li>跨平台</li>
-<li>安全可靠</li>
-<li>性能优异</li>
-</ul>
-<h2>快速开始</h2>
-<h3>安装 JDK</h3>
-<p>下载并安装最新版本的 JDK。</p>
-<h3>Hello World</h3>
-<div class="language-java" data-ext="java" data-title="java"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">public</span><span style="color:#C678DD;--shiki-dark:#C678DD"> class</span><span style="color:#E5C07B;--shiki-dark:#E5C07B"> HelloWorld</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> {</span></span>
-<span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">    public</span><span style="color:#C678DD;--shiki-dark:#C678DD"> static</span><span style="color:#C678DD;--shiki-dark:#C678DD"> void</span><span style="color:#61AFEF;--shiki-dark:#61AFEF"> main</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">(</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">String</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">[] </span><span style="color:#E06C75;--shiki-dark:#E06C75;font-style:italic;--shiki-dark-font-style:italic">args</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">)</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> {</span></span>
-<span class="line"><span style="color:#E5C07B;--shiki-dark:#E5C07B">        System</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">out</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#61AFEF;--shiki-dark:#61AFEF">println</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">(</span><span style="color:#98C379;--shiki-dark:#98C379">"Hello, World!"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">);</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    }</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">}</span></span></code></pre>
-</div><h2>核心特性</h2>
-<ul>
-<li>面向对象编程</li>
-<li>异常处理</li>
-<li>多线程</li>
-<li>集合框架</li>
-<li>IO 流</li>
-<li>网络编程</li>
-</ul>
-<p>（内容待完善）</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>JavaScript 开发指南</title>
-      <link>https://wushushu.me/technology/articles/javascript.html</link>
-      <guid>https://wushushu.me/technology/articles/javascript.html</guid>
-      <source url="https://wushushu.me/rss.xml">JavaScript 开发指南</source>
-      <description>JavaScript 开发指南 JavaScript 是 Web 开发的核心语言，运行在浏览器和服务器端（Node.js）。 基础语法 变量和数据类型 函数 对象和数组 控制流 现代 JavaScript ES6+ 特性 异步编程（Promise、async/await） 模块化 箭头函数 （内容待完善）</description>
-      <category>软件技术</category>
-      <category>编程语言</category>
-      <pubDate>Fri, 06 Dec 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>JavaScript 是 Web 开发的核心语言，运行在浏览器和服务器端（Node.js）。</p>
-<h2>基础语法</h2>
-<ul>
-<li>变量和数据类型</li>
-<li>函数</li>
-<li>对象和数组</li>
-<li>控制流</li>
-</ul>
-<h2>现代 JavaScript</h2>
-<ul>
-<li>ES6+ 特性</li>
-<li>异步编程（Promise、async/await）</li>
-<li>模块化</li>
-<li>箭头函数</li>
-</ul>
-<p>（内容待完善）</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Python 编程入门</title>
-      <link>https://wushushu.me/technology/articles/python.html</link>
-      <guid>https://wushushu.me/technology/articles/python.html</guid>
-      <source url="https://wushushu.me/rss.xml">Python 编程入门</source>
-      <description>Python 编程入门 Python 是一种简洁、优雅、功能强大的编程语言，广泛应用于 Web 开发、数据分析、人工智能等领域。 Python 简介 Python 具有以下特点： 简洁易读：语法清晰，代码易于理解和维护 功能强大：丰富的标准库和第三方库 跨平台：可在 Windows、Linux、macOS 等系统运行 应用广泛：Web 开发、数据科学、...</description>
-      <category>软件技术</category>
-      <category>编程语言</category>
-      <pubDate>Fri, 06 Dec 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>Python 是一种简洁、优雅、功能强大的编程语言，广泛应用于 Web 开发、数据分析、人工智能等领域。</p>
-<h2>Python 简介</h2>
-<p>Python 具有以下特点：</p>
-<ul>
-<li><strong>简洁易读</strong>：语法清晰，代码易于理解和维护</li>
-<li><strong>功能强大</strong>：丰富的标准库和第三方库</li>
-<li><strong>跨平台</strong>：可在 Windows、Linux、macOS 等系统运行</li>
-<li><strong>应用广泛</strong>：Web 开发、数据科学、机器学习、自动化等</li>
-</ul>
-<h2>快速开始</h2>
-<h3>安装 Python</h3>
-<p>访问 <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">Python 官网</a> 下载最新版本。</p>
-<h3>Hello World</h3>
-<div class="language-python" data-ext="python" data-title="python"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">print</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">(</span><span style="color:#98C379;--shiki-dark:#98C379">"Hello, World!"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">)</span></span></code></pre>
-</div><h3>基础语法</h3>
-<h4>变量和数据类型</h4>
-<div class="language-python line-numbers-mode" data-ext="python" data-title="python"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># 整数</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">age </span><span style="color:#56B6C2;--shiki-dark:#56B6C2">=</span><span style="color:#D19A66;--shiki-dark:#D19A66"> 25</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># 浮点数</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">price </span><span style="color:#56B6C2;--shiki-dark:#56B6C2">=</span><span style="color:#D19A66;--shiki-dark:#D19A66"> 99.99</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># 字符串</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">name </span><span style="color:#56B6C2;--shiki-dark:#56B6C2">=</span><span style="color:#98C379;--shiki-dark:#98C379"> "Alice"</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># 布尔值</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">is_student </span><span style="color:#56B6C2;--shiki-dark:#56B6C2">=</span><span style="color:#D19A66;--shiki-dark:#D19A66"> True</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># 列表</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">fruits </span><span style="color:#56B6C2;--shiki-dark:#56B6C2">=</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> [</span><span style="color:#98C379;--shiki-dark:#98C379">"apple"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">"banana"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#98C379;--shiki-dark:#98C379">"orange"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">]</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># 字典</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">person </span><span style="color:#56B6C2;--shiki-dark:#56B6C2">=</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> {</span></span>
-<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">    "name"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">"Bob"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">    "age"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">30</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#98C379;--shiki-dark:#98C379">    "city"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">"Beijing"</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">}</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4>条件语句</h4>
-<div class="language-python" data-ext="python" data-title="python"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">score </span><span style="color:#56B6C2;--shiki-dark:#56B6C2">=</span><span style="color:#D19A66;--shiki-dark:#D19A66"> 85</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">if</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> score </span><span style="color:#56B6C2;--shiki-dark:#56B6C2">&gt;=</span><span style="color:#D19A66;--shiki-dark:#D19A66"> 90</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
-<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">    print</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">(</span><span style="color:#98C379;--shiki-dark:#98C379">"优秀"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">)</span></span>
-<span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">elif</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> score </span><span style="color:#56B6C2;--shiki-dark:#56B6C2">&gt;=</span><span style="color:#D19A66;--shiki-dark:#D19A66"> 80</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
-<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">    print</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">(</span><span style="color:#98C379;--shiki-dark:#98C379">"良好"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">)</span></span>
-<span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">elif</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> score </span><span style="color:#56B6C2;--shiki-dark:#56B6C2">&gt;=</span><span style="color:#D19A66;--shiki-dark:#D19A66"> 60</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
-<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">    print</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">(</span><span style="color:#98C379;--shiki-dark:#98C379">"及格"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">)</span></span>
-<span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">else</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
-<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">    print</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">(</span><span style="color:#98C379;--shiki-dark:#98C379">"不及格"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">)</span></span></code></pre>
-</div><h4>循环</h4>
-<div class="language-python" data-ext="python" data-title="python"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># for 循环</span></span>
-<span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">for</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> i </span><span style="color:#C678DD;--shiki-dark:#C678DD">in</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> range</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">(</span><span style="color:#D19A66;--shiki-dark:#D19A66">5</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">):</span></span>
-<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">    print</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">(i)</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># while 循环</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">count </span><span style="color:#56B6C2;--shiki-dark:#56B6C2">=</span><span style="color:#D19A66;--shiki-dark:#D19A66"> 0</span></span>
-<span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">while</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> count </span><span style="color:#56B6C2;--shiki-dark:#56B6C2">&lt;</span><span style="color:#D19A66;--shiki-dark:#D19A66"> 5</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">:</span></span>
-<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">    print</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">(count)</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    count </span><span style="color:#56B6C2;--shiki-dark:#56B6C2">+=</span><span style="color:#D19A66;--shiki-dark:#D19A66"> 1</span></span></code></pre>
-</div><h4>函数</h4>
-<div class="language-python" data-ext="python" data-title="python"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">def</span><span style="color:#61AFEF;--shiki-dark:#61AFEF"> greet</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">(</span><span style="color:#D19A66;--shiki-dark:#D19A66;font-style:italic;--shiki-dark-font-style:italic">name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">):</span></span>
-<span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">    return</span><span style="color:#C678DD;--shiki-dark:#C678DD"> f</span><span style="color:#98C379;--shiki-dark:#98C379">"Hello, </span><span style="color:#D19A66;--shiki-dark:#D19A66">{</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">name</span><span style="color:#D19A66;--shiki-dark:#D19A66">}</span><span style="color:#98C379;--shiki-dark:#98C379">!"</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">message </span><span style="color:#56B6C2;--shiki-dark:#56B6C2">=</span><span style="color:#61AFEF;--shiki-dark:#61AFEF"> greet</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">(</span><span style="color:#98C379;--shiki-dark:#98C379">"Alice"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">)</span></span>
-<span class="line"><span style="color:#56B6C2;--shiki-dark:#56B6C2">print</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">(message)</span></span></code></pre>
-</div><h2>常用库</h2>
-<h3>数据处理</h3>
-<ul>
-<li><strong>NumPy</strong>：数值计算</li>
-<li><strong>Pandas</strong>：数据分析</li>
-<li><strong>Matplotlib</strong>：数据可视化</li>
-</ul>
-<h3>Web 开发</h3>
-<ul>
-<li><strong>Django</strong>：全功能 Web 框架</li>
-<li><strong>Flask</strong>：轻量级 Web 框架</li>
-<li><strong>FastAPI</strong>：现代 API 框架</li>
-</ul>
-<h3>机器学习</h3>
-<ul>
-<li><strong>Scikit-learn</strong>：机器学习</li>
-<li><strong>TensorFlow</strong>：深度学习</li>
-<li><strong>PyTorch</strong>：深度学习</li>
-</ul>
-<h2>学习资源</h2>
-<ul>
-<li><a href="https://docs.python.org/" target="_blank" rel="noopener noreferrer">Python 官方文档</a></li>
-<li><a href="https://docs.python.org/zh-cn/3/tutorial/" target="_blank" rel="noopener noreferrer">Python 教程</a></li>
-<li><a href="https://realpython.com/" target="_blank" rel="noopener noreferrer">Real Python</a></li>
-</ul>
-<h2>下一步</h2>
-<p>继续学习：</p>
-<ul>
-<li><a href="/technology/guides/oop.html" target="_blank">面向对象编程</a></li>
-<li><a href="/technology/guides/advanced-python.html" target="_blank">Python 进阶</a></li>
-<li><a href="/technology/articles/django.html" target="_blank">Web 开发实战</a></li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>React 开发指南</title>
-      <link>https://wushushu.me/technology/articles/react.html</link>
-      <guid>https://wushushu.me/technology/articles/react.html</guid>
-      <source url="https://wushushu.me/rss.xml">React 开发指南</source>
-      <description>React 开发指南 （内容待完善）</description>
-      <category>软件技术</category>
-      <category>开发框架</category>
-      <pubDate>Fri, 06 Dec 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>（内容待完善）</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Springboot 开发指南</title>
-      <link>https://wushushu.me/technology/articles/springboot.html</link>
-      <guid>https://wushushu.me/technology/articles/springboot.html</guid>
-      <source url="https://wushushu.me/rss.xml">Springboot 开发指南</source>
-      <description>Springboot 开发指南 （内容待完善）</description>
-      <category>软件技术</category>
-      <category>开发框架</category>
-      <pubDate>Fri, 06 Dec 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>（内容待完善）</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Vue.js 开发指南</title>
-      <link>https://wushushu.me/technology/articles/vue.html</link>
-      <guid>https://wushushu.me/technology/articles/vue.html</guid>
-      <source url="https://wushushu.me/rss.xml">Vue.js 开发指南</source>
-      <description>Vue.js 开发指南 Vue.js 是一个渐进式 JavaScript 框架，用于构建用户界面。它易学易用，性能优异，是现代前端开发的首选框架之一。 Vue.js 简介 核心特性 响应式数据绑定：数据变化自动更新视图 组件化开发：可复用的组件系统 虚拟 DOM：高效的 DOM 更新机制 渐进式框架：可以逐步引入，无需全盘重构 快速开始 安装 Hell...</description>
-      <category>软件技术</category>
-      <category>前端框架</category>
-      <pubDate>Fri, 06 Dec 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<p>Vue.js 是一个渐进式 JavaScript 框架，用于构建用户界面。它易学易用，性能优异，是现代前端开发的首选框架之一。</p>
-<h2>Vue.js 简介</h2>
-<h3>核心特性</h3>
-<ul>
-<li><strong>响应式数据绑定</strong>：数据变化自动更新视图</li>
-<li><strong>组件化开发</strong>：可复用的组件系统</li>
-<li><strong>虚拟 DOM</strong>：高效的 DOM 更新机制</li>
-<li><strong>渐进式框架</strong>：可以逐步引入，无需全盘重构</li>
-</ul>
-<h2>快速开始</h2>
-<h3>安装</h3>
-<div class="language-bash" data-ext="bash" data-title="bash"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># 使用 npm</span></span>
-<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">npm</span><span style="color:#98C379;--shiki-dark:#98C379"> create</span><span style="color:#98C379;--shiki-dark:#98C379"> vue@latest</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic"># 使用 pnpm</span></span>
-<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">pnpm</span><span style="color:#98C379;--shiki-dark:#98C379"> create</span><span style="color:#98C379;--shiki-dark:#98C379"> vue@latest</span></span></code></pre>
-</div><h3>Hello Vue</h3>
-<div class="language-vue line-numbers-mode" data-ext="vue" data-title="vue"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&lt;</span><span style="color:#E06C75;--shiki-dark:#E06C75">template</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">  &lt;</span><span style="color:#E06C75;--shiki-dark:#E06C75">div</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    &lt;</span><span style="color:#E06C75;--shiki-dark:#E06C75">h1</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&gt;{{ message }}&lt;/</span><span style="color:#E06C75;--shiki-dark:#E06C75">h1</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    &lt;</span><span style="color:#E06C75;--shiki-dark:#E06C75">button</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> @</span><span style="color:#D19A66;--shiki-dark:#D19A66">click</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">=</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">"</span><span style="color:#E06C75;--shiki-dark:#E06C75">changeMessage</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&gt;点击我&lt;/</span><span style="color:#E06C75;--shiki-dark:#E06C75">button</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">  &lt;/</span><span style="color:#E06C75;--shiki-dark:#E06C75">div</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&lt;/</span><span style="color:#E06C75;--shiki-dark:#E06C75">template</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&lt;</span><span style="color:#E06C75;--shiki-dark:#E06C75">script</span><span style="color:#D19A66;--shiki-dark:#D19A66"> setup</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">import</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> { </span><span style="color:#E06C75;--shiki-dark:#E06C75">ref</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> } </span><span style="color:#C678DD;--shiki-dark:#C678DD">from</span><span style="color:#98C379;--shiki-dark:#98C379"> 'vue'</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">const</span><span style="color:#E5C07B;--shiki-dark:#E5C07B"> message</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> =</span><span style="color:#61AFEF;--shiki-dark:#61AFEF"> ref</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">(</span><span style="color:#98C379;--shiki-dark:#98C379">'Hello Vue!'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">)</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">const</span><span style="color:#61AFEF;--shiki-dark:#61AFEF"> changeMessage</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> =</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> () </span><span style="color:#C678DD;--shiki-dark:#C678DD">=&gt;</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> {</span></span>
-<span class="line"><span style="color:#E5C07B;--shiki-dark:#E5C07B">  message</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">value</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> =</span><span style="color:#98C379;--shiki-dark:#98C379"> 'Vue is awesome!'</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">}</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&lt;/</span><span style="color:#E06C75;--shiki-dark:#E06C75">script</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&lt;</span><span style="color:#E06C75;--shiki-dark:#E06C75">style</span><span style="color:#D19A66;--shiki-dark:#D19A66"> scoped</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">h1</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> {</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">  color: </span><span style="color:#D19A66;--shiki-dark:#D19A66">#42b983</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">;</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">}</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&lt;/</span><span style="color:#E06C75;--shiki-dark:#E06C75">style</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>核心概念</h2>
-<h3>响应式数据</h3>
-<div class="language-javascript" data-ext="javascript" data-title="javascript"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">import</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> { </span><span style="color:#E06C75;--shiki-dark:#E06C75">ref</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#E06C75;--shiki-dark:#E06C75">reactive</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> } </span><span style="color:#C678DD;--shiki-dark:#C678DD">from</span><span style="color:#98C379;--shiki-dark:#98C379"> 'vue'</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">// ref - 基本类型</span></span>
-<span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">const</span><span style="color:#E5C07B;--shiki-dark:#E5C07B"> count</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> =</span><span style="color:#61AFEF;--shiki-dark:#61AFEF"> ref</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">(</span><span style="color:#D19A66;--shiki-dark:#D19A66">0</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">)</span></span>
-<span class="line"><span style="color:#E5C07B;--shiki-dark:#E5C07B">count</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">value</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">++</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">// reactive - 对象</span></span>
-<span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">const</span><span style="color:#E5C07B;--shiki-dark:#E5C07B"> state</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> =</span><span style="color:#61AFEF;--shiki-dark:#61AFEF"> reactive</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">({</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'Alice'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  age</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">25</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">})</span></span>
-<span class="line"><span style="color:#E5C07B;--shiki-dark:#E5C07B">state</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">age</span><span style="color:#56B6C2;--shiki-dark:#56B6C2">++</span></span></code></pre>
-</div><h3>计算属性</h3>
-<div class="language-javascript" data-ext="javascript" data-title="javascript"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">import</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> { </span><span style="color:#E06C75;--shiki-dark:#E06C75">ref</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#E06C75;--shiki-dark:#E06C75">computed</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> } </span><span style="color:#C678DD;--shiki-dark:#C678DD">from</span><span style="color:#98C379;--shiki-dark:#98C379"> 'vue'</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">const</span><span style="color:#E5C07B;--shiki-dark:#E5C07B"> firstName</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> =</span><span style="color:#61AFEF;--shiki-dark:#61AFEF"> ref</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">(</span><span style="color:#98C379;--shiki-dark:#98C379">'John'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">)</span></span>
-<span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">const</span><span style="color:#E5C07B;--shiki-dark:#E5C07B"> lastName</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> =</span><span style="color:#61AFEF;--shiki-dark:#61AFEF"> ref</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">(</span><span style="color:#98C379;--shiki-dark:#98C379">'Doe'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">)</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">const</span><span style="color:#E5C07B;--shiki-dark:#E5C07B"> fullName</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> =</span><span style="color:#61AFEF;--shiki-dark:#61AFEF"> computed</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">(() </span><span style="color:#C678DD;--shiki-dark:#C678DD">=&gt;</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> {</span></span>
-<span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">  return</span><span style="color:#98C379;--shiki-dark:#98C379"> `</span><span style="color:#C678DD;--shiki-dark:#C678DD">${</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">firstName</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">value</span><span style="color:#C678DD;--shiki-dark:#C678DD">}</span><span style="color:#C678DD;--shiki-dark:#C678DD"> ${</span><span style="color:#E5C07B;--shiki-dark:#E5C07B">lastName</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">value</span><span style="color:#C678DD;--shiki-dark:#C678DD">}</span><span style="color:#98C379;--shiki-dark:#98C379">`</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">})</span></span></code></pre>
-</div><h3>生命周期</h3>
-<div class="language-javascript" data-ext="javascript" data-title="javascript"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">import</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> { </span><span style="color:#E06C75;--shiki-dark:#E06C75">onMounted</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#E06C75;--shiki-dark:#E06C75">onUnmounted</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> } </span><span style="color:#C678DD;--shiki-dark:#C678DD">from</span><span style="color:#98C379;--shiki-dark:#98C379"> 'vue'</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">onMounted</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">(() </span><span style="color:#C678DD;--shiki-dark:#C678DD">=&gt;</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> {</span></span>
-<span class="line"><span style="color:#E5C07B;--shiki-dark:#E5C07B">  console</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#61AFEF;--shiki-dark:#61AFEF">log</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">(</span><span style="color:#98C379;--shiki-dark:#98C379">'组件已挂载'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">)</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">})</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">onUnmounted</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">(() </span><span style="color:#C678DD;--shiki-dark:#C678DD">=&gt;</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> {</span></span>
-<span class="line"><span style="color:#E5C07B;--shiki-dark:#E5C07B">  console</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#61AFEF;--shiki-dark:#61AFEF">log</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">(</span><span style="color:#98C379;--shiki-dark:#98C379">'组件已卸载'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">)</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">})</span></span></code></pre>
-</div><h2>组件开发</h2>
-<h3>定义组件</h3>
-<div class="language-vue line-numbers-mode" data-ext="vue" data-title="vue"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#7F848E;--shiki-dark:#7F848E;font-style:italic;--shiki-dark-font-style:italic">&lt;!-- MyButton.vue --&gt;</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&lt;</span><span style="color:#E06C75;--shiki-dark:#E06C75">template</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">  &lt;</span><span style="color:#E06C75;--shiki-dark:#E06C75">button</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> :</span><span style="color:#D19A66;--shiki-dark:#D19A66">class</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">=</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">"</span><span style="color:#E06C75;--shiki-dark:#E06C75">type</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> @</span><span style="color:#D19A66;--shiki-dark:#D19A66">click</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">=</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">"</span><span style="color:#E06C75;--shiki-dark:#E06C75">handleClick</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    &lt;</span><span style="color:#E06C75;--shiki-dark:#E06C75">slot</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&gt;默认文本&lt;/</span><span style="color:#E06C75;--shiki-dark:#E06C75">slot</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">  &lt;/</span><span style="color:#E06C75;--shiki-dark:#E06C75">button</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&lt;/</span><span style="color:#E06C75;--shiki-dark:#E06C75">template</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&lt;</span><span style="color:#E06C75;--shiki-dark:#E06C75">script</span><span style="color:#D19A66;--shiki-dark:#D19A66"> setup</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">const</span><span style="color:#E5C07B;--shiki-dark:#E5C07B"> props</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> =</span><span style="color:#61AFEF;--shiki-dark:#61AFEF"> defineProps</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">({</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  type</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: {</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    type</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E06C75;--shiki-dark:#E06C75">String</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    default</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'primary'</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">  }</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">})</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">const</span><span style="color:#E5C07B;--shiki-dark:#E5C07B"> emit</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> =</span><span style="color:#61AFEF;--shiki-dark:#61AFEF"> defineEmits</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">([</span><span style="color:#98C379;--shiki-dark:#98C379">'click'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">])</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">const</span><span style="color:#61AFEF;--shiki-dark:#61AFEF"> handleClick</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> =</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> () </span><span style="color:#C678DD;--shiki-dark:#C678DD">=&gt;</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> {</span></span>
-<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">  emit</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">(</span><span style="color:#98C379;--shiki-dark:#98C379">'click'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">)</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">}</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&lt;/</span><span style="color:#E06C75;--shiki-dark:#E06C75">script</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&gt;</span></span></code></pre>
-<div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3>使用组件</h3>
-<div class="language-vue" data-ext="vue" data-title="vue"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&lt;</span><span style="color:#E06C75;--shiki-dark:#E06C75">template</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">  &lt;</span><span style="color:#E06C75;--shiki-dark:#E06C75">MyButton</span><span style="color:#D19A66;--shiki-dark:#D19A66"> type</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">=</span><span style="color:#98C379;--shiki-dark:#98C379">"success"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> @</span><span style="color:#D19A66;--shiki-dark:#D19A66">click</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">=</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">"</span><span style="color:#E06C75;--shiki-dark:#E06C75">handleClick</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">"</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    点击我</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">  &lt;/</span><span style="color:#E06C75;--shiki-dark:#E06C75">MyButton</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&lt;/</span><span style="color:#E06C75;--shiki-dark:#E06C75">template</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&lt;</span><span style="color:#E06C75;--shiki-dark:#E06C75">script</span><span style="color:#D19A66;--shiki-dark:#D19A66"> setup</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&gt;</span></span>
-<span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">import</span><span style="color:#E06C75;--shiki-dark:#E06C75"> MyButton</span><span style="color:#C678DD;--shiki-dark:#C678DD"> from</span><span style="color:#98C379;--shiki-dark:#98C379"> './components/MyButton.vue'</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">const</span><span style="color:#61AFEF;--shiki-dark:#61AFEF"> handleClick</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> =</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> () </span><span style="color:#C678DD;--shiki-dark:#C678DD">=&gt;</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> {</span></span>
-<span class="line"><span style="color:#E5C07B;--shiki-dark:#E5C07B">  console</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#61AFEF;--shiki-dark:#61AFEF">log</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">(</span><span style="color:#98C379;--shiki-dark:#98C379">'按钮被点击'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">)</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">}</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&lt;/</span><span style="color:#E06C75;--shiki-dark:#E06C75">script</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">&gt;</span></span></code></pre>
-</div><h2>路由管理</h2>
-<p>使用 Vue Router 进行路由管理：</p>
-<div class="language-javascript" data-ext="javascript" data-title="javascript"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">import</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> { </span><span style="color:#E06C75;--shiki-dark:#E06C75">createRouter</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#E06C75;--shiki-dark:#E06C75">createWebHistory</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> } </span><span style="color:#C678DD;--shiki-dark:#C678DD">from</span><span style="color:#98C379;--shiki-dark:#98C379"> 'vue-router'</span></span>
-<span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">import</span><span style="color:#E06C75;--shiki-dark:#E06C75"> Home</span><span style="color:#C678DD;--shiki-dark:#C678DD"> from</span><span style="color:#98C379;--shiki-dark:#98C379"> './views/Home.vue'</span></span>
-<span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">import</span><span style="color:#E06C75;--shiki-dark:#E06C75"> About</span><span style="color:#C678DD;--shiki-dark:#C678DD"> from</span><span style="color:#98C379;--shiki-dark:#98C379"> './views/About.vue'</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">const</span><span style="color:#E5C07B;--shiki-dark:#E5C07B"> router</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> =</span><span style="color:#61AFEF;--shiki-dark:#61AFEF"> createRouter</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">({</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  history</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#61AFEF;--shiki-dark:#61AFEF">createWebHistory</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">(),</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  routes</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: [</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    { </span><span style="color:#E06C75;--shiki-dark:#E06C75">path</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'/'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#E06C75;--shiki-dark:#E06C75">component</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E06C75;--shiki-dark:#E06C75">Home</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> },</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    { </span><span style="color:#E06C75;--shiki-dark:#E06C75">path</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">'/about'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#E06C75;--shiki-dark:#E06C75">component</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#E06C75;--shiki-dark:#E06C75">About</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> }</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">  ]</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">})</span></span></code></pre>
-</div><h2>状态管理</h2>
-<p>使用 Pinia 进行状态管理：</p>
-<div class="language-javascript" data-ext="javascript" data-title="javascript"><pre class="shiki shiki-themes one-dark-pro one-dark-pro vp-code" style="background-color:#282c34;--shiki-dark-bg:#282c34;color:#abb2bf;--shiki-dark:#abb2bf" tabindex="0"><code><span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">import</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> { </span><span style="color:#E06C75;--shiki-dark:#E06C75">defineStore</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> } </span><span style="color:#C678DD;--shiki-dark:#C678DD">from</span><span style="color:#98C379;--shiki-dark:#98C379"> 'pinia'</span></span>
-<span class="line"></span>
-<span class="line"><span style="color:#C678DD;--shiki-dark:#C678DD">export</span><span style="color:#C678DD;--shiki-dark:#C678DD"> const</span><span style="color:#E5C07B;--shiki-dark:#E5C07B"> useUserStore</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> =</span><span style="color:#61AFEF;--shiki-dark:#61AFEF"> defineStore</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">(</span><span style="color:#98C379;--shiki-dark:#98C379">'user'</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, {</span></span>
-<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">  state</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: () </span><span style="color:#C678DD;--shiki-dark:#C678DD">=&gt;</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF"> ({</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#98C379;--shiki-dark:#98C379">''</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">,</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">    age</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: </span><span style="color:#D19A66;--shiki-dark:#D19A66">0</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">  }),</span></span>
-<span class="line"><span style="color:#E06C75;--shiki-dark:#E06C75">  actions</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">: {</span></span>
-<span class="line"><span style="color:#61AFEF;--shiki-dark:#61AFEF">    updateUser</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">(</span><span style="color:#E06C75;--shiki-dark:#E06C75;font-style:italic;--shiki-dark-font-style:italic">name</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">, </span><span style="color:#E06C75;--shiki-dark:#E06C75;font-style:italic;--shiki-dark-font-style:italic">age</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">) {</span></span>
-<span class="line"><span style="color:#E5C07B;--shiki-dark:#E5C07B">      this</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">name</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> =</span><span style="color:#E06C75;--shiki-dark:#E06C75"> name</span></span>
-<span class="line"><span style="color:#E5C07B;--shiki-dark:#E5C07B">      this</span><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">.</span><span style="color:#E06C75;--shiki-dark:#E06C75">age</span><span style="color:#56B6C2;--shiki-dark:#56B6C2"> =</span><span style="color:#E06C75;--shiki-dark:#E06C75"> age</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">    }</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">  }</span></span>
-<span class="line"><span style="color:#ABB2BF;--shiki-dark:#ABB2BF">})</span></span></code></pre>
-</div><h2>学习资源</h2>
-<ul>
-<li><a href="https://cn.vuejs.org/" target="_blank" rel="noopener noreferrer">Vue.js 官方文档</a></li>
-<li><a href="https://router.vuejs.org/zh/" target="_blank" rel="noopener noreferrer">Vue Router</a></li>
-<li><a href="https://pinia.vuejs.org/zh/" target="_blank" rel="noopener noreferrer">Pinia</a></li>
-<li><a href="https://cn.vitejs.dev/" target="_blank" rel="noopener noreferrer">Vite</a></li>
-</ul>
-<h2>下一步</h2>
-<ul>
-<li><a href="/technology/guides/vue-advanced.html" target="_blank">Vue 3 进阶</a></li>
-<li><a href="/technology/guides/component-library.html" target="_blank">组件库开发</a></li>
-<li><a href="/technology/guides/performance.html" target="_blank">性能优化</a></li>
 </ul>
 ]]></content:encoded>
     </item>
