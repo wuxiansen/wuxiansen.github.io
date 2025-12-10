@@ -4,24 +4,21 @@ export const zhNavbar = navbar([
   "/",
   { text: "导航", icon: "discover", link: "/demo/" },
   {
-    text: "笔记分类",
+    text: "随笔札记",
     icon: "edit",
     children: [
       {
-        text: "代码笔记",
-        prefix: "/posts/",
+        text: "博客随笔",
+        icon: "blog",
+        prefix: "/blog/",
         children: [
-          { text: "前端笔记", icon: "code", link: "Web/" },
-          { text: "React Native", icon: "react", link: "cross-platform/ReactNative/" },
-          { text: "Flutter", icon: "hk-flutter", link: "cross-platform/Flutter/" },
+          { text: "博客文章", icon: "article", link: "" },
         ],
       },
       {
-        text: "博客相关",
-        prefix: "/blog/",
-        children: [
-          { text: "博客相关", icon: "blog", link: "" },
-        ],
+        text: "软件教程",
+        icon: "software",
+        link: "/tutorial/",
       },
     ],
   },
@@ -31,14 +28,16 @@ export const zhNavbar = navbar([
     children: [
       {
         text: "AI",
+        icon: "hk-ai",
         prefix: "/technology/AI/",
         children: [
-          { text: "Spring AI", icon: "hk-ai", link: "spring-ai/" },
-          { text: "Spring AI Alibaba", icon: "hk-ai", link: "spring-ai-alibaba/" },
+          { text: "Spring AI", icon: "hk-spring", link: "spring-ai/" },
+          { text: "Spring AI Alibaba", icon: "hk-alibaba", link: "spring-ai-alibaba/" },
         ],
       },
       {
         text: "后端开发",
+        icon: "code",
         prefix: "/technology/",
         children: [
           { text: "Java", icon: "java", link: "Java/" },
@@ -49,6 +48,7 @@ export const zhNavbar = navbar([
       },
       {
         text: "系统与运维",
+        icon: "linux",
         prefix: "/technology/",
         children: [
           { text: "Linux", icon: "linux", link: "Linux/" },
@@ -60,12 +60,29 @@ export const zhNavbar = navbar([
   {
     text: "金融知识",
     icon: "hk-finance",
-    link: "/finance/",
-  },
-  {
-    text: "软件教程",
-    icon: "software",
-    link: "/tutorial/",
+    children: [
+      {
+        text: "投资品种",
+        icon: "hk-investment",
+        prefix: "/finance/articles/",
+        children: [
+          { text: "股票", icon: "hk-stock", link: "stocks" },
+          { text: "基金", icon: "hk-fund", link: "funds" },
+          { text: "债券", icon: "hk-bond", link: "bonds" },
+          { text: "外汇", icon: "hk-forex", link: "forex" },
+        ],
+      },
+      {
+        text: "金融基础",
+        icon: "hk-knowledge",
+        prefix: "/finance/articles/",
+        children: [
+          { text: "金融市场", icon: "hk-market", link: "markets" },
+          { text: "金融工具", icon: "hk-tool", link: "instruments" },
+          { text: "风险管理", icon: "hk-risk", link: "risk-management" },
+        ],
+      },
+    ],
   },
   {
     text: "收藏",
