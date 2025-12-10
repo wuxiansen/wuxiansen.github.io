@@ -6,18 +6,18 @@
     <link>https://wushushu.me/</link>
     <description>吴蜀黍的博客</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 10 Dec 2025 03:27:28 GMT</pubDate>
-    <lastBuildDate>Wed, 10 Dec 2025 03:27:28 GMT</lastBuildDate>
+    <pubDate>Wed, 10 Dec 2025 04:14:58 GMT</pubDate>
+    <lastBuildDate>Wed, 10 Dec 2025 04:14:58 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Blog</category>
     <category>About</category>
     <category>收藏</category>
     <category>AI</category>
+    <category>浏览器</category>
     <category>Linux</category>
     <category>python</category>
     <category>rust</category>
-    <category>浏览器</category>
     <category>工具教程</category>
     <category>Vercel</category>
     <category>开源软件</category>
@@ -563,6 +563,35 @@
       <enclosure url="https://s3.bmp.ovh/imgs/2023/03/29/8958076dc393c8df.png" type="image/png"/>
     </item>
     <item>
+      <title>素材设计</title>
+      <link>https://wushushu.me/site/design.html</link>
+      <guid>https://wushushu.me/site/design.html</guid>
+      <source url="https://wushushu.me/rss.xml">素材设计</source>
+      <description>相关信息 素材、设计相关好用的网站 工具类</description>
+      <category>收藏</category>
+      <pubDate>Tue, 11 Apr 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
+<p>素材、设计相关好用的网站</p>
+</div>
+<h2>工具类</h2>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>公开API</title>
+      <link>https://wushushu.me/site/public-api.html</link>
+      <guid>https://wushushu.me/site/public-api.html</guid>
+      <source url="https://wushushu.me/rss.xml">公开API</source>
+      <description>相关信息 免费公开的API网站，提供多种公共接口服务</description>
+      <category>收藏</category>
+      <pubDate>Tue, 28 Mar 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
+<p>免费公开的API网站，提供多种公共接口服务</p>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
       <title>一人一句宋词</title>
       <link>https://wushushu.me/private/%E4%B8%80%E4%BA%BA%E4%B8%80%E5%8F%A5%E5%AE%8B%E8%AF%8D.html</link>
       <guid>https://wushushu.me/private/%E4%B8%80%E4%BA%BA%E4%B8%80%E5%8F%A5%E5%AE%8B%E8%AF%8D.html</guid>
@@ -636,35 +665,6 @@
 </blockquote>
 ]]></content:encoded>
       <enclosure url="https://file.mo7.cc/api/public/bz?idx=1" type="image/"/>
-    </item>
-    <item>
-      <title>素材设计</title>
-      <link>https://wushushu.me/site/design.html</link>
-      <guid>https://wushushu.me/site/design.html</guid>
-      <source url="https://wushushu.me/rss.xml">素材设计</source>
-      <description>相关信息 素材、设计相关好用的网站 工具类</description>
-      <category>收藏</category>
-      <pubDate>Tue, 11 Apr 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div class="hint-container info">
-<p class="hint-container-title">相关信息</p>
-<p>素材、设计相关好用的网站</p>
-</div>
-<h2>工具类</h2>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>公开API</title>
-      <link>https://wushushu.me/site/public-api.html</link>
-      <guid>https://wushushu.me/site/public-api.html</guid>
-      <source url="https://wushushu.me/rss.xml">公开API</source>
-      <description>相关信息 免费公开的API网站，提供多种公共接口服务</description>
-      <category>收藏</category>
-      <pubDate>Tue, 28 Mar 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<div class="hint-container info">
-<p class="hint-container-title">相关信息</p>
-<p>免费公开的API网站，提供多种公共接口服务</p>
-</div>
-]]></content:encoded>
     </item>
     <item>
       <title>谷歌发布多平台应用开发神器Project IDX！PaLM 2加持</title>
@@ -761,9 +761,24 @@
       <enclosure url="https://s3.bmp.ovh/imgs/2023/08/15/c778fbcb229fc714.png" type="image/png"/>
     </item>
     <item>
+      <title>前端-Q&amp;A</title>
+      <link>https://wushushu.me/posts/Web/Q_A.html</link>
+      <guid>https://wushushu.me/posts/Web/Q_A.html</guid>
+      <source url="https://wushushu.me/rss.xml">前端-Q&amp;A</source>
+      <description>浏览器是如何渲染页面的？ 当浏览器的网络线程收到 HTML 文档后，会产生一个渲染任务，并将其传递给渲染主线程的消息队列。 在事件循环机制的作用下，渲染主线程取出消息队列中的渲染任务，开启渲染流程。</description>
+      <category>浏览器</category>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2>浏览器是如何渲染页面的？</h2>
+<p>当浏览器的网络线程收到 HTML 文档后，会产生一个渲染任务，并将其传递给渲染主线程的消息队列。</p>
+<p>在事件循环机制的作用下，渲染主线程取出消息队列中的渲染任务，开启渲染流程。</p>
+<!-- more -->
+]]></content:encoded>
+    </item>
+    <item>
       <title>终端究极美化iTerm2+Pure</title>
-      <link>https://wushushu.me/posts/Linux/iterm2-pure.html</link>
-      <guid>https://wushushu.me/posts/Linux/iterm2-pure.html</guid>
+      <link>https://wushushu.me/technology/Linux/iterm2-pure.html</link>
+      <guid>https://wushushu.me/technology/Linux/iterm2-pure.html</guid>
       <source url="https://wushushu.me/rss.xml">终端究极美化iTerm2+Pure</source>
       <description>提示 之前介绍了ZSH的安装和使用，这次把最终成果介绍一下，就是ZSH + iTerm2 + Pure 前置工作：安装ZSH，请参照之前的文章👉zsh安装</description>
       <category>Linux</category>
@@ -771,7 +786,7 @@
       <content:encoded><![CDATA[<div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>之前介绍了ZSH的安装和使用，这次把最终成果介绍一下，就是ZSH + iTerm2 + Pure</p>
-<p>前置工作：安装ZSH，请参照之前的文章👉<a href="/posts/Linux/zsh.html" target="_blank">zsh安装</a></p>
+<p>前置工作：安装ZSH，请参照之前的文章👉<a href="/technology/Linux/zsh.html" target="_blank">zsh安装</a></p>
 </div>
 <!-- more -->
 <h2>目录</h2>
@@ -868,8 +883,8 @@
     </item>
     <item>
       <title>Unix/Linux 扫盲笔记</title>
-      <link>https://wushushu.me/posts/Linux/unix-linux-note.html</link>
-      <guid>https://wushushu.me/posts/Linux/unix-linux-note.html</guid>
+      <link>https://wushushu.me/technology/Linux/unix-linux-note.html</link>
+      <guid>https://wushushu.me/technology/Linux/unix-linux-note.html</guid>
       <source url="https://wushushu.me/rss.xml">Unix/Linux 扫盲笔记</source>
       <description>This document is not completed and will be updated anytime. Catagory Catagory Unix Unix-like Single UNIX Specification Apple iOS XNU Kernel Linux Linux Kernel GNU Project Androi...</description>
       <category>Linux</category>
@@ -905,8 +920,8 @@
     </item>
     <item>
       <title>更优雅强大的终端ZSH</title>
-      <link>https://wushushu.me/posts/Linux/zsh.html</link>
-      <guid>https://wushushu.me/posts/Linux/zsh.html</guid>
+      <link>https://wushushu.me/technology/Linux/zsh.html</link>
+      <guid>https://wushushu.me/technology/Linux/zsh.html</guid>
       <source url="https://wushushu.me/rss.xml">更优雅强大的终端ZSH</source>
       <description>MacOS 自带的 bash 作为几乎所有 Linux 发行版的默认终端，正常使用时没什么问题的 这里介绍一个更强大的终端神器 目录 背景介绍 在 unix 内核的操作系统中,当然现在衍生出好多分支,linux ,OS X 都算. shell 就算和上面这些系统内核指令打交道的一座桥梁,我们通过键盘输入一种自己容易记忆识别的符号标识(shell 命令)...</description>
       <category>Linux</category>
@@ -930,8 +945,8 @@
     </item>
     <item>
       <title>使用Bing API提交网站URL</title>
-      <link>https://wushushu.me/posts/Python/submit-bing.html</link>
-      <guid>https://wushushu.me/posts/Python/submit-bing.html</guid>
+      <link>https://wushushu.me/technology/Python/submit-bing.html</link>
+      <guid>https://wushushu.me/technology/Python/submit-bing.html</guid>
       <source url="https://wushushu.me/rss.xml">使用Bing API提交网站URL</source>
       <description>提示 最近在做SEO，因为链接没有做同步，需要清除之前旧站的链接，重新提交，让搜索引擎尽快索引，google search console的已经基本做差不多了 bing最近因为 New Bing 的原因也用的比较多，所以做了一些工作，很方便的是，它可以直接同步GSC的站点数据，不过就只是域数据，URL还是要自己提交 为了尽快索引，只提交sitemap是...</description>
       <category>python</category>
@@ -961,8 +976,8 @@
     </item>
     <item>
       <title>提交URL到搜索引擎（百度、Bing、Google）</title>
-      <link>https://wushushu.me/posts/Python/submit-url.html</link>
-      <guid>https://wushushu.me/posts/Python/submit-url.html</guid>
+      <link>https://wushushu.me/technology/Python/submit-url.html</link>
+      <guid>https://wushushu.me/technology/Python/submit-url.html</guid>
       <source url="https://wushushu.me/rss.xml">提交URL到搜索引擎（百度、Bing、Google）</source>
       <description>相关信息 这是一个利用GitHub Actions自动触发的工作流进行解析更新的url并推送到搜索引擎的python脚本,除了之前介绍过的bing api之外，还增加了百度和Google的相关内容 关于GitHub Actions的介绍可以看这里👉GitHub Actions 关于GitHub Actions的配置可以看这里👉如何利用GitHub ...</description>
       <category>python</category>
@@ -980,8 +995,8 @@
     </item>
     <item>
       <title>初识Rust</title>
-      <link>https://wushushu.me/posts/Rust/first-time.html</link>
-      <guid>https://wushushu.me/posts/Rust/first-time.html</guid>
+      <link>https://wushushu.me/technology/Rust/first-time.html</link>
+      <guid>https://wushushu.me/technology/Rust/first-time.html</guid>
       <source url="https://wushushu.me/rss.xml">初识Rust</source>
       <description>Rust 发展历程 Rust 最早是 Mozilla 雇员 Graydon Hoare 的个人项目。从 2009 年开始，得到了 Mozilla 研究院的资助，2010 年项目对外公布，2010 ～ 2011 年间实现自举。自此以后，Rust 在部分重构 -&amp;gt; 崩溃的边缘反复横跳（历程极其艰辛），终于，在 2015 年 5 月 15 日发布 1.0 版...</description>
       <category>rust</category>
@@ -1064,21 +1079,6 @@
 <blockquote>
 <p>引自：<a href="https://course.rs/into-rust.html" target="_blank" rel="noopener noreferrer">Rust语言圣经(Rust Course)</a></p>
 </blockquote>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>前端-Q&amp;A</title>
-      <link>https://wushushu.me/posts/Web/Q_A.html</link>
-      <guid>https://wushushu.me/posts/Web/Q_A.html</guid>
-      <source url="https://wushushu.me/rss.xml">前端-Q&amp;A</source>
-      <description>浏览器是如何渲染页面的？ 当浏览器的网络线程收到 HTML 文档后，会产生一个渲染任务，并将其传递给渲染主线程的消息队列。 在事件循环机制的作用下，渲染主线程取出消息队列中的渲染任务，开启渲染流程。</description>
-      <category>浏览器</category>
-      <pubDate>Thu, 06 Apr 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[
-<h2>浏览器是如何渲染页面的？</h2>
-<p>当浏览器的网络线程收到 HTML 文档后，会产生一个渲染任务，并将其传递给渲染主线程的消息队列。</p>
-<p>在事件循环机制的作用下，渲染主线程取出消息队列中的渲染任务，开启渲染流程。</p>
-<!-- more -->
 ]]></content:encoded>
     </item>
     <item>
