@@ -35,23 +35,22 @@ export const zhNavbar = navbar([
   },
   {
     text: "技术文章",
-    icon: "edit",
+    icon: "code",
+    prefix: "/technology/",
     children: [
       {
         text: "Java",
-        prefix:"/technology/",
+        prefix: "Java/",
         children: [
-          { text: "Spring", icon: "hk-apple", link: "spring/" },
-          { text: "SpringAi", icon: "code", link: "Web/" },
-          { text: "SpringAiAlibaba", icon: "linux", link: "Linux/" },
+          { text: "Spring", icon: "java", link: "spring/" },
+          { text: "Spring AI", icon: "java", link: "spring-ai/" },
+          { text: "Spring AI Alibaba", icon: "java", link: "spring-ai-alibaba/" },
         ],
       },
       {
         text: "Golang",
-        prefix:"Golang/",
-        children: [
-          { text: "swag", icon: "blog", link: "" },
-        ],
+        icon: "golang",
+        link: "Golang/",
       },
     ],
   },

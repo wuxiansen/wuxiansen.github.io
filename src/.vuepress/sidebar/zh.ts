@@ -70,6 +70,26 @@ export const zhSidebar = sidebar({
       link: "blog/",
     },
     {
+      text: "技术文章",
+      icon: "code",
+      prefix: "technology/",
+      link: "technology/",
+      children: [
+        {
+          text: "Java",
+          icon: "java",
+          prefix: "Java/",
+          link: "Java/",
+        },
+        {
+          text: "Golang",
+          icon: "golang",
+          prefix: "Golang/",
+          link: "Golang/",
+        },
+      ],
+    },
+    {
       text: "站点收藏",
       icon: "sitemap",
       prefix: "site",
@@ -98,4 +118,10 @@ export const zhSidebar = sidebar({
   "/site/": "structure",
   "/blog": "structure",
   "/tutorial": "structure",
+  "/technology/": "structure",
+  "/technology/Java/": "structure",
+  "/technology/Java/spring/": "structure",
+  "/technology/Java/spring-ai/": "structure",
+  "/technology/Java/spring-ai-alibaba/": "structure",
+  "/technology/Golang/": "structure",
 });
