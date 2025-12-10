@@ -31,61 +31,58 @@ export const zhSidebar = sidebar({
     {
       text: "技术文章",
       icon: "stack",
+      prefix: "technology/",
       children: [
         {
           text: "AI",
           icon: "hk-ai",
-          prefix: "technology/AI/",
-          link: "technology/AI/",
-          children: [
-            { text: "Spring AI", icon: "hk-spring", link: "technology/AI/spring-ai/" },
-            { text: "Spring AI Alibaba", icon: "hk-alibaba", link: "technology/AI/spring-ai-alibaba/" },
-          ],
+          prefix: "AI/",
+          link: "AI/",
         },
         {
-          text: "后端开发",
-          icon: "code",
-          children: [
-            { text: "Java", icon: "java", prefix: "technology/Java/", link: "technology/Java/" },
-            { text: "Golang", icon: "hk-golang", prefix: "technology/Golang/", link: "technology/Golang/" },
-            { text: "Python", icon: "python", prefix: "technology/Python/", link: "technology/Python/" },
-            { text: "Rust", icon: "hk-rust", prefix: "technology/Rust/", link: "technology/Rust/" },
-          ],
+          text: "Java",
+          icon: "java",
+          prefix: "Java/",
+          link: "Java/",
         },
         {
-          text: "系统与运维",
+          text: "Golang",
+          icon: "hk-golang",
+          prefix: "Golang/",
+          link: "Golang/",
+        },
+        {
+          text: "Python",
+          icon: "python",
+          prefix: "Python/",
+          link: "Python/",
+        },
+        {
+          text: "Rust",
+          icon: "hk-rust",
+          prefix: "Rust/",
+          link: "Rust/",
+        },
+        {
+          text: "Linux",
           icon: "linux",
-          children: [
-            { text: "Linux", icon: "linux", prefix: "technology/Linux/", link: "technology/Linux/" },
-            { text: "Web", icon: "code", prefix: "technology/Web/", link: "technology/Web/" },
-          ],
+          prefix: "Linux/",
+          link: "Linux/",
+        },
+        {
+          text: "Web",
+          icon: "code",
+          prefix: "Web/",
+          link: "Web/",
         },
       ],
     },
     {
       text: "金融知识",
       icon: "hk-finance",
-      children: [
-        {
-          text: "投资品种",
-          icon: "hk-investment",
-          children: [
-            { text: "股票", icon: "hk-stock", link: "finance/articles/stocks" },
-            { text: "基金", icon: "hk-fund", link: "finance/articles/funds" },
-            { text: "债券", icon: "hk-bond", link: "finance/articles/bonds" },
-            { text: "外汇", icon: "hk-forex", link: "finance/articles/forex" },
-          ],
-        },
-        {
-          text: "金融基础",
-          icon: "hk-knowledge",
-          children: [
-            { text: "金融市场", icon: "hk-market", link: "finance/articles/markets" },
-            { text: "金融工具", icon: "hk-tool", link: "finance/articles/instruments" },
-            { text: "风险管理", icon: "hk-risk", link: "finance/articles/risk-management" },
-          ],
-        },
-      ],
+      prefix: "finance/",
+      link: "finance/",
+      children: "structure",
     },
     {
       text: "收藏",
@@ -117,7 +114,6 @@ export const zhSidebar = sidebar({
       ],
     },
   ],
-  // 各子目录的侧边栏配置
   "/demo/": "structure",
   "/blog/": "structure",
   "/tutorial/": "structure",
