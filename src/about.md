@@ -131,7 +131,7 @@ hope主题的markdown效果是出乎意料的好，而且支持了很多普通ma
    - 引入字体，品如手写体，夏行楷体
    - wanlie 增加自定义emoji，并修改展示样式
    - 个性log
-   - 自动推送新文章url到搜索引擎（百度、Bing、Google）👉[详细配置](/platform/github/github-action)
+   - 自动推送新文章url到搜索引擎（百度、Bing、Google）👉[详细配置](/blog/auto-push)
 
 ## 总结
 > 未完待续，持续优化中

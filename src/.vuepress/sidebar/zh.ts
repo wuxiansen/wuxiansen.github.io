@@ -113,8 +113,10 @@ export const zhSidebar = sidebar({
     {
       text: "关于",
       icon: "info",
-      prefix: "about/",
-      link: "about",
+      children: [
+        { text: "关于我", icon: "people", link: "intro" },
+        { text: "关于本站", icon: "info", link: "about" },
+      ],
     },
   ],
   "/posts/cross-platform/Flutter/": "structure",
