@@ -1,15 +1,13 @@
 ---
-title: "SpringAi"
-icon: "hk-flutter"
+title: "SpringAIAlibaba"
+icon: "spring"
 date: 1978-01-09
 index: false
 timeline: false
 article: false
-dir:
-  order: 2
 ---
 :::info
-这里放置 SpringAi 内容
+这里放置 SpringAIAlibaba 内容
 :::
 
 <Catalog />

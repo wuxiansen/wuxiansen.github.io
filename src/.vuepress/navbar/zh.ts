@@ -38,19 +38,25 @@ export const zhNavbar = navbar([
     icon: "edit",
     children: [
       {
+        text: "AI",
+        prefix:"/technology/",
+        children: [
+          { text: "SpringAi", icon: "code", link: "AI/" },
+          { text: "SpringAiAlibaba", icon: "linux", link: "AI/" },
+        ],
+      },
+      {
         text: "Java",
         prefix:"/technology/",
         children: [
-          { text: "Spring", icon: "hk-apple", link: "spring/" },
-          { text: "SpringAi", icon: "code", link: "Web/" },
-          { text: "SpringAiAlibaba", icon: "linux", link: "Linux/" },
+          { text: "Spring", icon: "hk-apple", link: "AI/" },
         ],
       },
       {
         text: "Golang",
         prefix:"Golang/",
         children: [
-          { text: "swag", icon: "blog", link: "" },
+          { text: "Golang", icon: "golang", link: "" },
         ],
       },
     ],
