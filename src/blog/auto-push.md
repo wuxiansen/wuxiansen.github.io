@@ -17,7 +17,7 @@ tag:
 这是一个`GitHub Actions`的配置文件，整体思路是，获取本次更新的url
 （通过对比两次提交的sitemap.xml文件），所以触发条件是deploy分支有推送并修改了`sitemap.xml`文件，再利用python脚本进行url推送到百度、Bing、Google
 
-脚本代码请看这里👉[提交URL到搜索引擎（百度、Bing、Google）](/posts/Python/submit-url)
+脚本代码请看这里👉[提交URL到搜索引擎（百度、Bing、Google）](/technology/Python/submit-url)
 :::
 <!-- more -->
 前些天不是写了Bing的提交脚本吗，但是每次都要自己手动跑脚本也很麻烦，但我又没有服务器，所以用上了GitHub Actions了嘛

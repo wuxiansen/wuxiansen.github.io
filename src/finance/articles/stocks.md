@@ -145,8 +145,6 @@ tag:
 ## 下一步
 
 - [基金投资指南](/finance/articles/funds.md)
-- [技术分析详解](/finance/guides/technical-analysis.md)
-- [价值投资实战](/finance/guides/value-investing.md)
 
 ---
 

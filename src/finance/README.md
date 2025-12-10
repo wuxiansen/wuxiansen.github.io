@@ -32,14 +32,6 @@ icon: dollar-sign
 
 :::
 
-## 金融指南
-
-查看我们的[金融指南](guides/)，学习投资策略和风险管理。
-
-## 最新文章
-
-<ArticleList />
-
 ---
 
 ::: warning 投资风险提示
