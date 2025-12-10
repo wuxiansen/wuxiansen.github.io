@@ -1,6 +1,6 @@
 ---
-title: "Java"
-icon: "hk-flutter"
+title: "Spring"
+icon: "hk-spring"
 date: 1978-01-09
 index: false
 timeline: false
@@ -9,7 +9,7 @@ dir:
   order: 2
 ---
 :::info
-这里放置 Java 内容
+这里放置 Spring 相关内容
 :::
 
 <Catalog />
