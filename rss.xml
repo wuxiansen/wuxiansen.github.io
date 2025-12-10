@@ -6,8 +6,8 @@
     <link>https://wushushu.me/</link>
     <description>吴蜀黍的博客</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 10 Dec 2025 09:59:44 GMT</pubDate>
-    <lastBuildDate>Wed, 10 Dec 2025 09:59:44 GMT</lastBuildDate>
+    <pubDate>Wed, 10 Dec 2025 10:51:54 GMT</pubDate>
+    <lastBuildDate>Wed, 10 Dec 2025 10:51:54 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Blog</category>
@@ -171,7 +171,7 @@
 <li>引入字体，品如手写体，夏行楷体</li>
 <li>wanlie 增加自定义emoji，并修改展示样式</li>
 <li>个性log</li>
-<li>自动推送新文章url到搜索引擎（百度、Bing、Google）👉<a href="/platform/github/github-action">详细配置</a></li>
+<li>自动推送新文章url到搜索引擎（百度、Bing、Google）👉<a href="/blog/auto-push">详细配置</a></li>
 </ul>
 </li>
 </ol>
@@ -234,7 +234,7 @@
 <p class="hint-container-title">相关信息</p>
 <p>这是一个<code>GitHub Actions</code>的配置文件，整体思路是，获取本次更新的url<br>
 （通过对比两次提交的sitemap.xml文件），所以触发条件是deploy分支有推送并修改了<code>sitemap.xml</code>文件，再利用python脚本进行url推送到百度、Bing、Google</p>
-<p>脚本代码请看这里👉<a href="/posts/Python/submit-url">提交URL到搜索引擎（百度、Bing、Google）</a></p>
+<p>脚本代码请看这里👉<a href="/technology/Python/submit-url">提交URL到搜索引擎（百度、Bing、Google）</a></p>
 </div>
 <!-- more -->
 <p>前些天不是写了Bing的提交脚本吗，但是每次都要自己手动跑脚本也很麻烦，但我又没有服务器，所以用上了GitHub Actions了嘛<br>
@@ -1083,8 +1083,8 @@
     </item>
     <item>
       <title>Jenkins 远程触发构建踩坑记</title>
-      <link>https://wushushu.me/tutorial/CI_CD/Jenkins.html</link>
-      <guid>https://wushushu.me/tutorial/CI_CD/Jenkins.html</guid>
+      <link>https://wushushu.me/tutorial/CICD/Jenkins.html</link>
+      <guid>https://wushushu.me/tutorial/CICD/Jenkins.html</guid>
       <source url="https://wushushu.me/rss.xml">Jenkins 远程触发构建踩坑记</source>
       <description>CSRF crumbk,Jenkins,</description>
       <category>工具教程</category>
@@ -1183,8 +1183,8 @@ Jenkins 需要安装 GitLab Plugin 插件，然后配置 <strong>webhook</strong
     </item>
     <item>
       <title>Vercel deploy忽略指定分支</title>
-      <link>https://wushushu.me/tutorial/CI_CD/vercel-deploy.html</link>
-      <guid>https://wushushu.me/tutorial/CI_CD/vercel-deploy.html</guid>
+      <link>https://wushushu.me/tutorial/CICD/vercel-deploy.html</link>
+      <guid>https://wushushu.me/tutorial/CICD/vercel-deploy.html</guid>
       <source url="https://wushushu.me/rss.xml">Vercel deploy忽略指定分支</source>
       <description>Vercel Ignored Build Step使用</description>
       <category>Vercel</category>
@@ -3601,7 +3601,7 @@ TS 对 JS 的改进主要是静态类型检查，静态类型检查有何意义�
       <link>https://wushushu.me/finance/</link>
       <guid>https://wushushu.me/finance/</guid>
       <source url="https://wushushu.me/rss.xml">金融投资</source>
-      <description>金融投资 欢迎来到金融投资专区！这里提供投资理财、金融知识、市场分析等专业内容。 投资理财 投资品种 ::: card - 股市投资基础与策略 - 基金选择与配置 - 稳健型投资工具 - 外汇市场入门 ::: 金融知识 基础知识 ::: card - 了解金融市场运作 - 常见金融工具介绍 - 投资风险控制 ::: 金融指南 查看我们的，学习投资策略和...</description>
+      <description>金融投资 欢迎来到金融投资专区！这里提供投资理财、金融知识、市场分析等专业内容。 投资理财 投资品种 ::: card - 股市投资基础与策略 - 基金选择与配置 - 稳健型投资工具 - 外汇市场入门 ::: 金融知识 基础知识 ::: card - 了解金融市场运作 - 常见金融工具介绍 - 投资风险控制 ::: 投资风险提示 投资有风险，入市需谨慎...</description>
       <pubDate>Sat, 06 Dec 2025 20:50:01 GMT</pubDate>
       <content:encoded><![CDATA[
 <p>欢迎来到金融投资专区！这里提供投资理财、金融知识、市场分析等专业内容。</p>
@@ -3624,9 +3624,6 @@ TS 对 JS 的改进主要是静态类型检查，静态类型检查有何意义�
 <li><a href="/finance/articles/risk-management.html" target="_blank">风险管理</a> - 投资风险控制</li>
 </ul>
 <p>:::</p>
-<h2>金融指南</h2>
-<p>查看我们的<a href="/finance/guides/" target="_blank">金融指南</a>，学习投资策略和风险管理。</p>
-<h2>最新文章</h2>
 ]]></content:encoded>
     </item>
     <item>
@@ -3839,8 +3836,6 @@ TS 对 JS 的改进主要是静态类型检查，静态类型检查有何意义�
 <h2>下一步</h2>
 <ul>
 <li><a href="/finance/articles/funds.html" target="_blank">基金投资指南</a></li>
-<li><a href="/finance/guides/technical-analysis.html" target="_blank">技术分析详解</a></li>
-<li><a href="/finance/guides/value-investing.html" target="_blank">价值投资实战</a></li>
 </ul>
 ]]></content:encoded>
     </item>
