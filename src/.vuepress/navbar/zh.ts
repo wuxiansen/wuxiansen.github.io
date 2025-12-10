@@ -9,24 +9,16 @@ export const zhNavbar = navbar([
     children: [
       {
         text: "代码笔记",
-        prefix:"/posts/",
+        prefix: "/posts/",
         children: [
-          { text: "iOS笔记", icon: "hk-apple", link: "iOS/" },
           { text: "前端笔记", icon: "code", link: "Web/" },
-          { text: "Linux", icon: "linux", link: "Linux/" },
-          { text: "Python", icon: "python", link: "Python/" },
-          { text: "Rust", icon: "hk-rust", link: "Rust/" },
-          { text: "React", icon: "react", link: "cross-platform/ReactNative/" },
-          {
-            text: "Flutter",
-            icon: "hk-flutter",
-            link: "cross-platform/Flutter/",
-          },
+          { text: "React Native", icon: "react", link: "cross-platform/ReactNative/" },
+          { text: "Flutter", icon: "hk-flutter", link: "cross-platform/Flutter/" },
         ],
       },
       {
         text: "博客相关",
-        prefix:"/blog/",
+        prefix: "/blog/",
         children: [
           { text: "博客相关", icon: "blog", link: "" },
         ],
@@ -35,31 +27,40 @@ export const zhNavbar = navbar([
   },
   {
     text: "技术文章",
-    icon: "edit",
+    icon: "stack",
     children: [
       {
         text: "AI",
-        prefix:"/technology/",
+        prefix: "/technology/AI/",
         children: [
-          { text: "SpringAi", icon: "code", link: "AI/" },
-          { text: "SpringAiAlibaba", icon: "linux", link: "AI/" },
+          { text: "Spring AI", icon: "hk-ai", link: "spring-ai/" },
+          { text: "Spring AI Alibaba", icon: "hk-ai", link: "spring-ai-alibaba/" },
         ],
       },
       {
-        text: "Java",
-        prefix:"/technology/",
+        text: "后端开发",
+        prefix: "/technology/",
         children: [
-          { text: "Spring", icon: "hk-apple", link: "AI/" },
+          { text: "Java", icon: "java", link: "Java/" },
+          { text: "Golang", icon: "hk-golang", link: "Golang/" },
+          { text: "Python", icon: "python", link: "Python/" },
+          { text: "Rust", icon: "hk-rust", link: "Rust/" },
         ],
       },
       {
-        text: "Golang",
-        prefix:"Golang/",
+        text: "系统与运维",
+        prefix: "/technology/",
         children: [
-          { text: "Golang", icon: "golang", link: "" },
+          { text: "Linux", icon: "linux", link: "Linux/" },
+          { text: "Web", icon: "code", link: "Web/" },
         ],
       },
     ],
+  },
+  {
+    text: "金融知识",
+    icon: "hk-finance",
+    link: "/finance/",
   },
   {
     text: "软件教程",
@@ -89,7 +90,7 @@ export const zhNavbar = navbar([
   {
     text: "关于",
     icon: "info",
-    children:[
+    children: [
       { text: "关于我", icon: "people", link: "/intro" },
       { text: "关于本站", icon: "info", link: "/about" },
     ]
